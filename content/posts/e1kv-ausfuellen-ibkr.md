@@ -22,7 +22,7 @@ Du hast ein Interactive-Brokers-Konto, bist in Österreich steuerpflichtig — u
 3. Die wichtigsten Kennzahlen — Übersicht
 4. Schritt 1: Dividenden + PiL → KZ 863
 5. Schritt 2: Aktien-Gewinne/Verluste → KZ 994 / 892
-6. Schritt 3: Optionen → KZ 995 / 896 (oder KZ 857?)
+6. Schritt 3: Optionen → KZ 995 / 896
 7. Schritt 4: Broker-Zinsen → KZ 861 oder 863?
 8. Schritt 5: Anrechenbare Quellensteuer → KZ 998
 9. Häufige Fehler + Edge-Cases
@@ -116,21 +116,11 @@ AT verlangt **Avg-Cost-Methode** für die Bewertungsmethode (kein FIFO!). Aus IB
 Netto-Saldo (intern):       19.837,10 €
 ```
 
-## 6. Schritt 3: Optionen → KZ 995 / 896 (oder KZ 857?)
+## 6. Schritt 3: Optionen → KZ 995 / 896
 
-Hier wird es **rechtlich strittig**:
+Aktien-Optionen über IBKR werden in der Praxis als **„wie verbriefte Derivate"** behandelt → **KZ 995** (Überschüsse) / **KZ 896** (Verluste). Begründung: börsennotiert und reguliert (CBOE, NASDAQ-OM, OCC-Clearing). 27,5 % Sondersteuersatz.
 
-### Variante A — Praxis (was die meisten machen)
-Aktien-Optionen über IBKR werden als **„wie verbriefte Derivate"** behandelt → KZ 995 (Überschüsse) / KZ 896 (Verluste). Begründung: börsennotiert und reguliert (CBOE, NASDAQ-OM, OCC-Clearing). 27,5 % Sondersteuersatz.
-
-### Variante B — strenge gesetzliche Auslegung
-§ 27a Abs. 2 Z 7 EStG schließt den 27,5 %-Sondersteuersatz aus, wenn das Derivat **nicht verbrieft** ist UND ohne freiwilligen Steuerabzug. Beides trifft auf IBKR-Aktien-Optionen wörtlich zu → **KZ 857 mit Tarifsteuer (bis 55 %!)**.
-
-**Worst-Case-Differenz:** Bei 43.000 € Options-Saldo wären das **~8.840 € Mehr-KESt**.
-
-NotebookLM gegen das gesamte EStG befragt: „Aktien-Optionen auf regulierten Börsen werden wie verbriefte Derivate behandelt" — bestätigt also Variante A. Aber: Eine **BMF-Vorab-Anfrage** für große Volumina ist defensiv ratsam.
-
-[→ Detail-Diskussion: "Aktien-Optionen bei IBKR — KZ 995 oder KZ 857?"]
+Verluste in KZ 896 mit Minuszeichen eintragen. Saldierbar mit Aktien-Gewinnen (KZ 994) und Dividenden (KZ 863) im selben 27,5 %-Topf.
 
 ## 7. Schritt 4: Broker-Zinsen → KZ 861 oder 863?
 
