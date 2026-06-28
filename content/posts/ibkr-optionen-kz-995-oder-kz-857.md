@@ -1,7 +1,7 @@
 ---
 title: 'IBKR-Aktien-Optionen: KZ 995 mit 27,5 % oder KZ 857 mit Tarif? Was die Literatur tatsächlich sagt'
 date: 2026-06-16
-lastmod: 2026-06-16
+lastmod: 2026-06-28
 description: 'Börsennotierte Aktien-Optionen bei IBKR, CapTrader, LYNX, BANX — viele Berater tragen sie ins KZ 995 (27,5 %). Die herrschende Lehre und der VwGH sehen das anders: § 27a Abs 2 Z 7 EStG → KZ 857 mit progressivem Tarif. Was bedeutet das praktisch, wie groß ist die Differenz, und wann lohnt eine BMF-Vorabanfrage?'
 keywords: ['IBKR Optionen Steuer Österreich', 'KZ 995 Optionen', 'KZ 857 Optionen', 'verbriefte Derivate', 'nicht verbriefte Derivate', '§ 27a Abs 2 Z 7 EStG', 'CapTrader Optionen Steuer', 'LYNX Optionen E1kv', 'Sondersteuersatz 27,5 %', 'progressiver Tarif Derivate']
 tags: ['Optionen', 'IBKR', 'CapTrader', 'LYNX', 'E1kv', 'KZ 995', 'KZ 857', '§ 27a EStG', 'Österreich']
@@ -22,6 +22,13 @@ Dieser Artikel ist die ehrliche Zusammenfassung. Inklusive Quellen, damit Du es 
 1. Realisierte Gewinne aus **verbrieften** Derivaten (Zertifikate, Optionsscheine mit ISIN auf einen wertpapierähnlichen Träger) landen in **KZ 995**, Verluste in **KZ 896** — beide mit **27,5 % Sondersteuersatz**.
 2. Realisierte Gewinne UND Verluste aus **nicht-verbrieften** Derivaten (klassische Aktien-Optionen über CBOE, OCC, Eurex etc.) landen als **Saldo in KZ 857** — mit **progressivem Tarif bis 50 %** (55 % bei Einkommen ≥ 1 Mio. EUR).
 3. **§ 27a Abs 2 Z 7 EStG** schließt nicht-verbriefte Derivate vom Sondersteuersatz aus, **§ 27 Abs 8 Z 3 EStG** verbietet zusätzlich den Verlustausgleich mit den 27,5 %-Töpfen. Der KZ-857-Topf ist also nach beiden Seiten isoliert.
+
+> **Präzisierung — warum KZ 857 und nicht eine „mit KESt-Abzug"-Kennzahl:** KZ 857 ist die Kennzahl der E1kv-Beilage **„ohne KESt-Abzug"** — also für Einkünfte, von denen *keine* inländische Kapitalertragsteuer einbehalten wurde. Streng genommen gilt „nicht-verbrieft → KZ 857" daher nur, *solange keine inländische depotführende Stelle einen (freiwilligen) KESt-Abzug vorgenommen hat*. In der Praxis ist das aber **ausnahmslos der Fall** — aus zwei Gründen:
+>
+> 1. **In Österreich bietet faktisch keine Bank und kein Broker echte (nicht-verbriefte) Optionen oder Futures überhaupt an.** Wer solche Derivate handelt, tut das zwangsläufig über einen Auslandsbroker (IBKR, CapTrader, LYNX, BANX).
+> 2. **Ein Auslandsbroker führt keine österreichische KESt ab** — auch keinen freiwilligen Abzug. Der wäre nur über eine inländische Stelle möglich, die es für dieses Produkt (Punkt 1) gar nicht gibt.
+>
+> Heißt konkret: Für Deine Aktien-Optionen aus dem IBKR-/CapTrader-Depot ist die „mit KESt-Abzug"-Variante praktisch ausgeschlossen — die Einkünfte landen **immer in der „ohne KESt-Abzug"-Beilage, als Saldo in KZ 857**. Den theoretischen „freiwilligen KESt-Abzug" macht hier niemand, weil ihn für dieses Produkt niemand machen *kann*. (Hintergrund dazu im Artikel [Die drei Schichten der Optionen-Steuerfalle](/posts/optionen-steuerfalle-at-drei-schichten/), Schicht 1.)
 
 Die ganze Diskussion dreht sich darum, ob eine **börsengehandelte Standard-Aktien-Option mit ISIN** als „verbrieft" gilt — oder nicht.
 
