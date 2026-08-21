@@ -97,9 +97,27 @@ Die einzige belastbare Lösung ist eine **kuratierte Liste je ISIN**: eine Handv
 
 ## <a id="tool"></a>Wie DepotTax damit umgeht
 
-DepotTax übernimmt die Broker-Kategorie **nicht** ungeprüft. Für Papiere, bei denen die Handelsklasse und der Steuertopf auseinanderfallen, gibt es eine **kuratierte Einstufung je ISIN**, die den automatischen Weg überstimmt — inklusive Notiz, worauf die Einordnung beruht, und ab wann sie gilt.
+DepotTax übernimmt die Broker-Kategorie **nicht** ungeprüft. Für Papiere, bei denen Handelsklasse und Steuertopf auseinanderfallen, gibt es eine **kuratierte Einstufung je ISIN**, die den automatischen Weg überstimmt — inklusive Notiz, worauf die Einordnung beruht.
 
-Praktisch heißt das: Deine Edelmetall-ETCs erscheinen im PDF und im Excel in KZ 995/896, und im Audit-Sheet steht daneben, warum. Die Jahressummen ändern sich dadurch nicht — nur die Zeile stimmt.
+Das löst allerdings nur die Fälle, die schon jemand eingeordnet hat. Für alle anderen gibt es seit August 2026 zwei Schritte mehr.
+
+### Erstens: Das Tool fragt von sich aus nach
+
+Ein Detektor durchsucht Dein Depot nach Positionen, die ein ETC sein könnten — Papiere, die der Broker als ETF meldet und deren Name auf einen physischen Rohstoff zeigt. Findet er eines, erscheint im Dashboard und im PDF ein Hinweis mit dem konkreten Prüfweg: Schau ins KID, achte auf das Wort „Schuldverschreibung".
+
+Der Detektor **entscheidet dabei nichts**. Er kann es nicht, denn die Information steht in keinem Datenfeld, das er lesen könnte — genau darum geht es in diesem Artikel. Was er kann, ist Dir die Frage überhaupt zu stellen. Ohne ihn stellt sie sich nie, und die Position läuft still in der falschen Kennzahl mit.
+
+Der Filter ist bewusst so gebaut, dass er bei echten Fonds schweigt: Ein Goldminen-Aktienfonds ist ein Sondervermögen und damit kein ETC, egal wie oft „Gold" im Namen steht. Ein Fehlalarm wäre trotzdem harmlos, weil nichts umgebucht wird — ein übersehener ETC dagegen nicht.
+
+### Zweitens: Deine Antwort zählt
+
+Unter dem Hinweis stehen zwei Schaltflächen: **„Ist ein ETC → KZ 995/896"** und **„Ist keiner → bleibt 994/892"**. Ein Klick genügt, danach rechnet das Tool neu und die Kennzahl stimmt in PDF, Excel und Audit-Sheet.
+
+Beide Antworten beenden den Hinweis. Auch „ist keiner" ist eine getroffene Entscheidung und wird als solche gespeichert — sonst würde Dich dasselbe Papier jedes Jahr erneut fragen.
+
+Deine Antwort gilt dabei **nur für Dein Depot**, und sie schlägt unsere kuratierte Vorbelegung. Das ist Absicht: Du hast das KID Deines Produkts vor Dir, wir haben nur eine gut begründete Voreinstellung. Zurücknehmen kannst Du sie jederzeit.
+
+Und weil es immer wieder Rückfragen dazu gibt: Die Jahressummen ändern sich durch so eine Umstellung **nicht**. Nur die Zeile stimmt.
 
 > 🛠 **[DepotTax](https://depottax.at)** liest die IBKR-/CapTrader-FlexQuery aus und liefert die fertige E1kv-Kennzahlenübersicht als PDF — mit Herleitung bis auf die einzelne Transaktion. Aktuell in geschlossener Beta.
 
