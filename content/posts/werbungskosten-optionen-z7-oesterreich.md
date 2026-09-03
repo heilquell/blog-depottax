@@ -137,7 +137,7 @@ Zwei Feinheiten, die in Rechenbeispielen gern unterschlagen werden. Der Abzug wi
 
 Damit zum unangenehmen Teil, den man beim Thema Werbungskosten gern übersieht.
 
-Werbungskosten machen einen Z7-Verlust **größer**. Und Verluste in diesem Topf sind besonders wenig wert: Sie lassen sich nicht mit Aktiengewinnen verrechnen — die Töpfe sind getrennt — und sie lassen sich in Österreich auch nicht ins nächste Jahr vortragen. Was am 31.12. übrig ist, ist weg.
+Werbungskosten machen einen Z7-Verlust **größer**. Und Verluste in diesem Topf sind besonders wenig wert, gleich dreifach: Sie lassen sich nicht mit Aktiengewinnen verrechnen — die Töpfe sind getrennt. Sie lassen sich nicht ins nächste Jahr vortragen. Und sie lassen sich auch nicht gegen Deinen Lohn stellen, denn § 27 Abs 8 Z 4 EStG sagt ausdrücklich, dass nicht ausgeglichene Verluste aus Kapitalvermögen „nicht mit Einkünften aus anderen Einkunftsarten ausgeglichen werden" dürfen. Was am 31.12. übrig ist, ist weg.
 
 Ein Beispiel: Du hast 2.000 € Optionsverlust und 1.200 € Werbungskosten. Der Verlust wächst auf 3.200 €. Steuerlich bringt Dir keiner der beiden Beträge irgendetwas, wenn Du im selben Jahr keine anderen Z7-Gewinne hast.
 
@@ -150,8 +150,6 @@ Die Rechtsgrundlage ist eindeutig. Die Praxis ist es nicht. Worauf Du Dich einst
 **Der Zusammenhang muss stimmen.** Broker-Gebühren und Marktdaten sind unmittelbar zuordenbar. Bei einem Fortbildungsseminar an einem attraktiven Ort wird genauer hingesehen.
 
 **Gemischt genutztes braucht einen Schlüssel.** Bei Internet, Hardware und Beratung verlangt die Finanz eine nachvollziehbare Aufteilung. Eine kurze Notiz zum Beleg („Monitor für Handelsplattform, 70 % beruflich") ist wenig Aufwand und der Unterschied zwischen anerkannt und gestrichen.
-
-**Liebhaberei ist das eigentliche Risiko.** Wer über Jahre Verluste schreibt und gleichzeitig hohe Werbungskosten ansetzt, riskiert, dass die Tätigkeit insgesamt als Liebhaberei eingestuft wird. Dann fallen nicht nur die Kosten weg, sondern die ganze Einkunftsquelle aus der Veranlagung. Bei dauerhaft positivem Topf ist das kein Thema.
 
 **Belege aufheben.** Sieben Jahre. Die Rückfrage kommt oft erst, wenn man die Rechnung längst weggeworfen hat.
 
@@ -194,8 +192,8 @@ Alle Gesetzeszitate im Volltext über das [RIS](https://www.ris.bka.gv.at/), ESt
 - **§ 16 Abs 1 EStG** — Werbungskosten-Definition, Abzug bei der Einkunftsart, bei der sie erwachsen
 - **§ 2 Abs 4 Z 2 EStG** — Einkünfte als Überschuss der Einnahmen über die Werbungskosten
 - **§ 33 Abs 1 EStG** — Tarifstufen; die im Rechenbeispiel verwendeten Grenzen gelten für 2026 und werden jährlich nach § 33a valorisiert
-- **§ 27 Abs 8 EStG** — Verlustausgleich zwischen den Töpfen und Vortragsverbot
-- Liebhabereiverordnung BGBl 1993/33 idgF; § 132 BAO (Aufbewahrungsfrist)
+- **§ 27 Abs 8 Z 3 und Z 4 EStG** — Trennung der Töpfe und Verbot des Ausgleichs mit anderen Einkunftsarten; kein Verlustvortrag im Privatvermögen
+- § 132 BAO — Aufbewahrungsfrist sieben Jahre
 
 ---
 
