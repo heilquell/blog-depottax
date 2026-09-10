@@ -2,7 +2,6 @@
 title: 'Trading 212 zieht Österreicher nach Deutschland um — und Du musst das dem Finanzamt melden'
 date: 2026-09-10
 lastmod: 2026-09-10
-draft: true
 description: 'Trading 212 überträgt österreichische Kunden von der zypriotischen Einheit auf die deutsche Trading 212 EU GmbH in Ratingen. Für Österreich ist das ein Übertrag von einer ausländischen auf eine ausländische Depotstelle — und der gilt als Veräußerung, wenn Du ihn nicht binnen eines Monats dem Finanzamt meldest.'
 keywords: ['Trading 212 Steuer Österreich', 'Trading 212 Depotübertrag melden', 'Trading 212 EU GmbH Ratingen', 'FXFlat Trading 212', 'Depotübertrag Ausland Ausland melden', '§ 27 Abs 6 Z 2 EStG', 'Veräußerungsfiktion Depotübertrag', 'FinanzOnline Depotübertragung', 'Trading 212 E1kv']
 tags: ['Trading 212', 'E1kv', 'Depotübertrag', 'Österreich', 'Steuererklärung', 'Auslandsbroker']
