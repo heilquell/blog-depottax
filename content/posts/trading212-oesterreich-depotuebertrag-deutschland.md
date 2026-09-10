@@ -1,78 +1,75 @@
 ---
-title: 'Trading 212 hat Österreicher nach Deutschland umgezogen — was das steuerlich bedeutet'
+title: 'Trading 212 zieht Österreicher nach Deutschland um — und Du musst das dem Finanzamt melden'
 date: 2026-09-10
 lastmod: 2026-09-10
 draft: true
-description: 'Seit Anfang 2025 betreut Trading 212 österreichische Kunden über die deutsche Trading 212 EU GmbH in Ratingen, die frühere FXFlat Bank. Bestandskunden wurden von Zypern dorthin migriert. Ist dieser Auslands-Auslands-Übertrag in Österreich ein Verkauf? Und ändert eine deutsche Bank etwas an der E1kv-Pflicht?'
-keywords: ['Trading 212 Steuer Österreich', 'Trading 212 Österreich E1kv', 'Trading 212 EU GmbH Ratingen', 'FXFlat Trading 212', 'Depotübertrag Zypern Deutschland', '§ 27 Abs 6 Z 2 EStG', 'Trading 212 Vorabpauschale Österreich', 'Fractional Shares Steuer Österreich', 'Pie Sparplan Steuer']
+description: 'Trading 212 überträgt österreichische Kunden von der zypriotischen Einheit auf die deutsche Trading 212 EU GmbH in Ratingen. Für Österreich ist das ein Übertrag von einer ausländischen auf eine ausländische Depotstelle — und der gilt als Veräußerung, wenn Du ihn nicht binnen eines Monats dem Finanzamt meldest.'
+keywords: ['Trading 212 Steuer Österreich', 'Trading 212 Depotübertrag melden', 'Trading 212 EU GmbH Ratingen', 'FXFlat Trading 212', 'Depotübertrag Ausland Ausland melden', '§ 27 Abs 6 Z 2 EStG', 'Veräußerungsfiktion Depotübertrag', 'FinanzOnline Depotübertragung', 'Trading 212 E1kv']
 tags: ['Trading 212', 'E1kv', 'Depotübertrag', 'Österreich', 'Steuererklärung', 'Auslandsbroker']
 ---
 
-# Trading 212 hat Österreicher nach Deutschland umgezogen — was das steuerlich bedeutet
+# Trading 212 zieht Österreicher nach Deutschland um — und Du musst das dem Finanzamt melden
 
-> **Stand:** 2026-09-10 · **Lesezeit:** ~7 Minuten · **Gilt für:** AT-Privatpersonen, Steuerjahr 2025+
+> **Stand:** 2026-09-10 · **Lesezeit:** ~8 Minuten · **Gilt für:** AT-Privatpersonen, Steuerjahr 2025+
 
-Wenn Du bei Trading 212 investierst und in Österreich steuerpflichtig bist, hat sich unter Dir der Boden verschoben, ohne dass Du etwas getan hättest. Dein Depot liegt nicht mehr dort, wo es einmal lag. Dieser Artikel klärt die zwei Fragen, die daraus folgen: **Ist der Umzug ein steuerpflichtiger Verkauf?** Und: **Ändert eine deutsche Bank etwas daran, dass Du alles selbst erklären musst?**
+Wenn Du bei Trading 212 investierst und in Österreich steuerpflichtig bist, hat sich Dein Depot bewegt, ohne dass Du etwas getan hättest. Es liegt nicht mehr in Zypern, sondern in Deutschland.
 
-Die kurzen Antworten lauten: sehr wahrscheinlich nein, und nein. Beide brauchen aber eine Begründung, und bei der ersten gibt es etwas, das Du prüfen solltest.
+Der Broker schreibt dazu sinngemäß, Du müsstest nichts unternehmen. Aus deutscher und zypriotischer Sicht stimmt das. **Aus österreichischer Sicht stimmt es nicht.** Für Dich ist dieser Umzug ein Übertrag von einer ausländischen auf eine ausländische Depotstelle, und der gilt im österreichischen Steuerrecht als Veräußerung — es sei denn, Du meldest ihn rechtzeitig dem Finanzamt.
+
+Dieser Artikel erklärt, was zu tun ist, und beantwortet danach die zweite Frage, die sich stellt: ob eine deutsche Bank etwas daran ändert, dass Du weiterhin alles selbst erklären musst.
 
 ## Was tatsächlich passiert ist
 
 Trading 212 hat 2024 die deutsche **FXFlat Bank GmbH** übernommen, einen 1997 gegründeten Wertpapierhandelsbetrieb mit BaFin-Lizenz. Daraus wurde die **Trading 212 EU GmbH** mit Sitz in Ratingen.
 
-Für österreichische Kunden ergibt sich daraus eine Zeitachse:
-
 | Zeitraum | Zuständige Einheit | Sitz | Aufsicht |
 |---|---|---|---|
 | bis Anfang 2025 | Trading 212 Markets Ltd | Zypern | CySEC |
 | ab Anfang 2025 (Neukunden) | Trading 212 EU GmbH | Ratingen (DE) | BaFin |
-| Bestandskunden | migriert von Zypern nach Ratingen | | |
+| Bestandskunden | schrittweise Migration Zypern → Ratingen | | |
 
-Der letzte Punkt ist der interessante. **Bestandskunden wurden nicht gefragt**, sondern übertragen. Steuerlich ist das aus österreichischer Sicht ein Übertrag von einer ausländischen Depotstelle auf eine andere ausländische Depotstelle — und genau diese Konstellation lässt bei vielen Anlegern zu Recht die Alarmglocke schrillen.
+Die Bestandskunden wurden per E-Mail informiert, die Umstellung lief über mehrere Wochen. Aus Kundensicht passierte nichts Sichtbares: keine Verkäufe, keine Buchungen, dieselben Positionen in derselben App.
 
-## Frage 1: Ist der Umzug ein Verkauf?
+## Warum das für Österreich trotzdem ein Steuerfall ist
 
-Die maßgebliche Norm ist **§ 27 Abs 6 Z 2 EStG**. Sie sagt: Ein Depotübertrag zwischen Konten **derselben Person bei derselben Bank** löst keine Steuer aus und ist nicht meldepflichtig. Das gilt ausdrücklich auch für ausländische Sachverhalte, denn die Regel knüpft an die Identität von Anleger und Bank an, nicht an die Landkarte.
+Maßgeblich ist **§ 27 Abs 6 Z 2 EStG**. Die Grundregel dort lautet: Die Übertragung von Wertpapieren auf ein anderes Depot gilt als Veräußerung. Davon gibt es Ausnahmen, und diese Ausnahmen sind an Bedingungen geknüpft.
 
-Der wunde Punkt ist das Wort **„dieselbe Bank"**. Trading 212 Markets Ltd in Zypern und die Trading 212 EU GmbH in Ratingen sind juristisch zwei verschiedene Gesellschaften.
+Der Fall „ausländische Depotstelle auf ausländische Depotstelle" ist ausdrücklich geregelt. Er steht im **vierten Teilstrich, erster Fall** und ist im Meldeverfahren des Finanzministeriums mit dem eigenen Fallcode **274T** hinterlegt: *„Übertragungen auf ein Depot der-/desselben Steuerpflichtigen von einer ausländischen auf eine ausländische depotführende Stelle"*.
 
-Genau dieselbe Frage gab es schon einmal, und zwar bei der ATAD-bedingten Migration von IBKR LLC nach IBKR Ireland 2021/2022. Wir haben sie in [Depotübertrag bei IBKR](/posts/depotuebertrag-ibkr-oesterreich/) ausführlich behandelt. Die Merkmale, auf die es dabei ankam, treffen auf den Trading-212-Fall genauso zu:
+Damit die Veräußerungsfiktion **nicht** eintritt, musst Du die Übertragung selbst dem Finanzamt mitteilen. Der Broker macht das nicht. Trading 212 unterliegt österreichischem Steuerrecht nicht und hat keinen Anlass, für Dich eine Meldung abzugeben.
 
-- Beide Einheiten gehören **demselben Konzern**.
-- Die Umstellung erfolgte **automatisch**, ohne dass ein Verkaufsvorgang stattfand.
-- Es gab **keine Wahlmöglichkeit** für den Kunden.
+**Die Frist beträgt einen Monat** ab der Übertragung. Sie ist nach der Fachliteratur nicht verlängerbar.
 
-Der Praxis-Konsens unter österreichischen Steuerberatern behandelt solche konzerninternen Migrationen wie „dieselbe Bank". Eine offizielle Stellungnahme des Finanzministeriums dazu gibt es nicht, und damit bleibt eine Restunsicherheit, die man ehrlicherweise benennen muss.
+Seit dem **2. Juli 2026** gibt es dafür den elektronischen Weg über FinanzOnline unter „Weitere Services – Depotübertragung". Liegt Deine Migration davor, klär mit Deinem Steuerberater, in welcher Form die Mitteilung einzubringen ist.
 
-> 💡 **Vorsichtsmaßnahme**: Ergänze in der Beilage E1kv unter „Sonstige Hinweise" einen Satz wie: *„Im Berechnungszeitraum erfolgte ein konzerninterner Depotübertrag innerhalb der Trading-212-Gruppe (Zypern → Deutschland) ohne Realisierung. Anschaffungskosten unverändert übernommen."* Freiwillig, aber es nimmt dem Thema im Nachhinein die Schärfe.
+> ⚠️ **Was passiert, wenn Du nicht meldest:** Der Umzug gilt als Verkauf zum Zeitpunkt der Übertragung. Der bis dahin aufgelaufene Kursgewinn wird steuerpflichtig, obwohl Du nichts verkauft und keinen Cent erhalten hast. Für die Zukunft gilt dann der Wert am Umzugstag als Deine neue Anschaffungsgrundlage.
 
-## Das eigentliche Risiko liegt woanders
+## Warum der IBKR-Vergleich hier nicht trägt
 
-Steuerneutral heißt nur, dass der Übertrag **selbst** nichts auslöst. Was Du trotzdem korrekt mitführen musst, sind **Anschaffungskosten und Anschaffungsdatum** jeder übertragenen Position. Die brauchst Du beim späteren Verkauf.
+Wer unseren Artikel [Depotübertrag bei IBKR](/posts/depotuebertrag-ibkr-oesterreich/) kennt, könnte auf eine naheliegende Idee kommen: Die Migration von IBKR LLC auf IBKR Ireland galt als steuerneutral, warum also nicht auch hier?
 
-Schiefgehen kann es, wenn die neue Depotstelle Deine Bestände zum Kurs des Umzugstags als „neu eingebucht" behandelt. Ein Rechenbeispiel:
+Der Unterschied ist wesentlich. Bei IBKR ging es um **denselben Broker**, der seine Kunden konzernintern auf eine andere Gesellschaft desselben Hauses umstellte, und selbst dort haben wir das als Graubereich ohne offizielle Stellungnahme des Finanzministeriums beschrieben. Die Ausnahme in § 27 Abs 6 Z 2, die ohne jede Meldung auskommt, betrifft ausschließlich Überträge bei **derselben depotführenden Stelle**.
 
-| Vorgang | Betrag |
-|---|---|
-| Kauf 2022 auf dem Zypern-Konto | 40 Stk. zu 60 € = 2.400 € |
-| Migration nach Ratingen 2025, Marktwert | 40 Stk. zu 95 € = 3.800 € |
-| Verkauf 2026 | 40 Stk. zu 110 € = 4.400 € |
+Trading 212 Markets Ltd in Zypern und die Trading 212 EU GmbH in Ratingen sind zwei Gesellschaften in zwei Ländern unter zwei Aufsichtsbehörden. Für diesen Fall sieht das Gesetz einen eigenen Teilstrich mit eigener Meldepflicht vor. Sich hier auf die Konzernzugehörigkeit zu verlassen, wäre ein teurer Fehler.
 
-Mit korrekt übernommenen Anschaffungskosten beträgt der Gewinn 4.400 − 2.400 = **2.000 €**. Behandelt Deine Auswertung die Migration dagegen als Neueinbuchung, kommt sie auf 4.400 − 3.800 = **600 €**. Das ist keine Ersparnis, sondern eine zu niedrig erklärte Steuer, die bei einer späteren Prüfung mit Anspruchszinsen zurückkommt.
+## Was Du jetzt konkret tun solltest
 
-**Was Du also tun solltest:** Zieh Dir einen Kontoauszug aus der Zeit vor dem Umzug und heb ihn auf. Er ist Dein Nachweis für die ursprünglichen Kaufdaten, falls die neuen Auswertungen sie nicht sauber mitführen.
+1. **Datum der Übertragung feststellen.** Es steht in der Ankündigungsmail von Trading 212 oder ist im Konto ersichtlich.
+2. **Kontoauszug von vor dem Umzug ziehen und aufheben.** Er ist Dein Nachweis für Anschaffungskosten und Anschaffungsdatum jeder Position. Das ist auch dann wichtig, wenn die Meldung klappt.
+3. **Meldung einbringen**, über FinanzOnline unter „Weitere Services – Depotübertragung". Gemeldet werden die übertragenen Wertpapiere, ihre Anschaffungskosten und die übernehmende Stelle.
+4. **Frist prüfen.** Ein Monat ab Übertragung.
 
-## Frage 2: Ändert die deutsche Bank etwas an der E1kv-Pflicht?
+**Wenn die Frist bereits verstrichen ist**, ist das ein Fall für Deinen Steuerberater und nicht für Eigenregie. Die Rechtsfolge wäre die Veräußerungsfiktion, und die betrifft je nach Depotgröße schnell einen vierstelligen Steuerbetrag. Sammle in diesem Fall zuerst die Unterlagen von vor dem Umzug, damit die Ausgangslage überhaupt belegbar bleibt.
 
-Nein. Und das ist der Punkt, an dem die meisten falsch abbiegen.
+## Ändert die deutsche Bank etwas an der E1kv-Pflicht?
 
-In Österreich sind Kapitalerträge nur dann endbesteuert, wenn eine **inländische** Depotstelle die Kapitalertragsteuer einbehält und abführt (§ 95 EStG). Inländisch heißt: in Österreich ansässig. Eine Bank in Ratingen ist eine deutsche Bank, keine österreichische. Sie ist für die Republik Österreich kein Abzugsverpflichteter und behält deshalb keine österreichische KESt ein.
+Nein. Und das ist der Punkt, an dem viele falsch abbiegen.
 
-Der Umzug von Zypern nach Deutschland ändert daran **gar nichts**. Vorher eine ausländische Depotstelle, nachher eine ausländische Depotstelle. Wir haben das Prinzip in [„KESt-endbesteuert" — warum es bei Auslandsbrokern nicht greift](/posts/kest-endbesteuerung-ibkr/) ausführlich hergeleitet.
+In Österreich sind Kapitalerträge nur dann endbesteuert, wenn eine **inländische** Depotstelle die Kapitalertragsteuer einbehält und abführt (§ 95 EStG). Inländisch heißt: in Österreich ansässig. Eine Bank in Ratingen ist eine deutsche Bank. Sie ist für die Republik Österreich kein Abzugsverpflichteter und behält keine österreichische KESt ein.
 
-Trading 212 sagt das übrigens selbst: Die Plattform ist für Österreich nicht steuereinfach, Kunden müssen Gewinne und Dividenden eigenständig in der Steuererklärung erklären.
+Der Umzug ändert daran nichts: vorher eine ausländische Depotstelle, nachher eine ausländische Depotstelle. Das Prinzip haben wir in [„KESt-endbesteuert" — warum es bei Auslandsbrokern nicht greift](/posts/kest-endbesteuerung-ibkr/) hergeleitet.
 
-Für Dich heißt das jedes Jahr Beilage E1kv, mit denselben Kennzahlen wie bei jedem anderen Auslandsbroker:
+Trading 212 bleibt für österreichische Anlegerinnen und Anleger ausdrücklich **nicht steuereinfach**. Für Dich heißt das jedes Jahr Beilage E1kv:
 
 - Realisierte Gewinne und Verluste aus Aktien und ETFs → **KZ 994 / 892**
 - Dividenden brutto → **KZ 863**
@@ -81,7 +78,7 @@ Für Dich heißt das jedes Jahr Beilage E1kv, mit denselben Kennzahlen wie bei j
 
 ## Die deutsche Steuerbrille passt nicht auf Österreich
 
-Eine deutsche Depotstelle erstellt naturgemäß Unterlagen nach deutschem Recht. Deutschland und Österreich besteuern Wertpapiere aber unterschiedlich, und die Begriffe lassen sich nicht ineinander übersetzen:
+Eine deutsche Depotstelle erstellt Unterlagen nach deutschem Recht. Die Begriffe lassen sich nicht ineinander übersetzen:
 
 | Deutschland | Österreich |
 |---|---|
@@ -90,19 +87,17 @@ Eine deutsche Depotstelle erstellt naturgemäß Unterlagen nach deutschem Recht.
 | FIFO als Verbrauchsfolge | **gleitender Durchschnittspreis ist vorgeschrieben** (§ 27a Abs 4 Z 1 EStG) |
 | Verlustvortrag über Jahre möglich | für privates Kapitalvermögen ausgeschlossen |
 
-Der dritte Punkt ist der teuerste. Wenn Du einen deutschen Jahressteuerbericht bekommst, ist er **nach FIFO gerechnet**. Für Österreich ist das schlicht die falsche Methode, und die Zahlen darin sind für Deine E1kv nicht verwendbar. Sie sehen nur so aus, als wären sie es.
+Der dritte Punkt ist der teuerste. Ein deutscher Jahressteuerbericht ist nach FIFO gerechnet. Für Österreich ist das die falsche Methode, und die Zahlen darin sind für Deine E1kv nicht verwendbar. Sie sehen nur so aus, als wären sie es.
 
-**Zusätzlich zu klären**, und das gehört auf die Liste für Deinen Steuerberater: ob die deutsche Stelle bei Dir deutsche Kapitalertragsteuer einbehält. Als in Österreich ansässige Person solltest Du der Bank Deine Ansässigkeit nachweisen. Wird trotzdem deutsche Steuer abgezogen, brauchst Du dafür eine Anrechnung oder Erstattung, sonst zahlst Du zweimal.
+**Zusätzlich zu klären**, ebenfalls ein Punkt für den Steuerberater: ob die deutsche Stelle bei Dir deutsche Kapitalertragsteuer einbehält. Als in Österreich ansässige Person solltest Du der Bank Deine Ansässigkeit nachweisen. Wird trotzdem deutsche Steuer abgezogen, brauchst Du eine Anrechnung oder Erstattung, sonst zahlst Du zweimal.
 
-## Warum Trading 212 besonders viel Arbeit macht
+## Warum Trading 212 besonders viel Rechenarbeit macht
 
-Zwei Eigenheiten der Plattform sorgen dafür, dass die Handarbeit hier schneller unmöglich wird als bei anderen Brokern:
+**Fractional Shares.** Du kaufst 0,0347 Stück. Der österreichische gleitende Durchschnittspreis muss mit solchen Bruchteilen rechnen, in Euro, mit einem Umrechnungskurs je Transaktion.
 
-**Fractional Shares.** Du kaufst 0,0347 Stück. Der österreichische gleitende Durchschnittspreis muss mit solchen Bruchteilen rechnen, und zwar in Euro, mit einem Umrechnungskurs je Transaktion.
+**Pie-Sparpläne.** Ein automatischer Sparplan über zehn Positionen erzeugt bei wöchentlicher Ausführung über fünfhundert Kaufvorgänge im Jahr. Jeder verändert Deinen Durchschnittspreis.
 
-**Pie-Sparpläne.** Ein automatischer Sparplan über zehn Positionen erzeugt bei wöchentlicher Ausführung über fünfhundert Kaufvorgänge im Jahr. Jeder einzelne verändert Deinen Durchschnittspreis. Wer das in einer Tabellenkalkulation nachbaut, verbringt damit ein Wochenende und hat am Ende trotzdem Rundungsfehler.
-
-Dazu kommt, dass Trading 212 Kundenbestände standardmäßig verleiht. Kommt für eine verliehene Aktie statt der Dividende eine Ersatzzahlung, ist das steuerlich nicht dasselbe wie eine Dividende — ein Detail, das in keiner Broker-Auswertung erklärt wird.
+Dazu verleiht Trading 212 Kundenbestände. Kommt für eine verliehene Aktie statt der Dividende eine Ersatzzahlung, ist das steuerlich nicht dasselbe wie eine Dividende — ein Detail, das keine Broker-Auswertung erklärt.
 
 <div class="dt-callout dt-callout-tool" id="tool">
 
@@ -112,24 +107,25 @@ Dazu kommt, dass Trading 212 Kundenbestände standardmäßig verleiht. Kommt fü
 
 ## In drei Sätzen
 
-Der Umzug von Zypern nach Ratingen ist nach dem Praxis-Konsens kein steuerpflichtiger Verkauf, weil er konzernintern und ohne Dein Zutun stattfand — heb aber einen Auszug von vor dem Umzug auf. Eine deutsche Bank ist für Österreich genauso wenig Abzugsverpflichteter wie eine zypriotische, die Beilage E1kv bleibt also Pflicht. Und den deutschen Jahressteuerbericht kannst Du für Österreich nicht verwenden, weil er nach der falschen Verbrauchsfolge rechnet.
+Der Umzug von Zypern nach Ratingen ist für Österreich ein meldepflichtiger Depotübertrag zwischen zwei ausländischen Stellen, und ohne Mitteilung ans Finanzamt binnen eines Monats gilt er als Verkauf. Trading 212 nimmt diese Meldung nicht für Dich vor. Und weil eine deutsche Bank für Österreich genauso wenig Abzugsverpflichteter ist wie eine zypriotische, bleibt die Beilage E1kv ohnehin Pflicht.
 
 ---
 
 ### Verwandte Guides
 
-- [Depotübertrag bei IBKR — muss ich das erklären?](/posts/depotuebertrag-ibkr-oesterreich/) — der Präzedenzfall zur Konzernmigration
+- [Depotübertrag bei IBKR — muss ich das erklären?](/posts/depotuebertrag-ibkr-oesterreich/) — der Fall bei derselben depotführenden Stelle
 - [„KESt-endbesteuert" und warum es bei Auslandsbrokern nicht greift](/posts/kest-endbesteuerung-ibkr/)
 - [KZ 937 — wann OeKB-Daten Pflicht sind](/posts/kz-937-oekb-ausschuettungsgleich/)
 - [E1kv ausfüllen mit Broker-Daten](/posts/e1kv-ausfuellen-ibkr/)
 
 ### Quellen
 
-- EStG § 27 Abs 6 Z 2 (Depotübertrag), § 27a Abs 4 Z 1 (gleitender Durchschnittspreis), § 95 (Abzugsverpflichteter), § 97 (Endbesteuerung)
-- Enzinger Steuerberatung, „Depotübertrag in Österreich — steuerliche Auswirkungen" ([enzinger-stb.at](https://www.enzinger-stb.at/depotuebertrag-in-oesterreich-steuerliche-auswirkungen/))
-- broker-test.at zur Übernahme der FXFlat Bank GmbH und zur Verlagerung der Verwahrung von Zypern nach Deutschland ([broker-test.at](https://www.broker-test.at/depot/trading-212/))
-- Finance Magnates zum Onboarding neuer Kunden über die übernommene FXFlat ([financemagnates.com](https://www.financemagnates.com/forex/trading-212-starts-onboarding-new-users-in-germany-through-acquired-fxflat-bank/))
+- **EStG § 27 Abs 6 Z 2** (Depotübertragung, vierter Teilstrich erster Fall: ausländische auf ausländische depotführende Stelle), § 27a Abs 4 Z 1 (gleitender Durchschnittspreis), § 95 (Abzugsverpflichteter), § 97 (Endbesteuerung)
+- **Bundesministerium für Finanzen**, „Depotübertragung § 27 Abs. 6 EStG", Schnittstellenbeschreibung gültig ab 02.07.2026 — Fallcode **274T** für Überträge von einer ausländischen auf eine ausländische depotführende Stelle ([bmf.gv.at](https://www.bmf.gv.at/dam/jcr:4ea30ea0-001a-4e86-88ae-0181f2d7299b/BMF_Allgemeines_Depotuebertragung.pdf))
+- **broker-test.at**, „Trading 212 verlagert Verwahrung von Zypern nach Deutschland — ACHTUNG Ausland-Ausland-Depotübertrag" — dort auch die Feststellung, dass Trading 212 die Meldung nicht vornimmt und für österreichische Anleger nicht steuereinfach bleibt ([broker-test.at](https://www.broker-test.at/news/trading-212-verlagert-verwahrung-von-zypern-nach-deutschland-achtung-ausland-ausland-depotuebertrag/))
+- **BDO Austria**, „Finanzamtsmeldung bei Depotübertragungen" — Monatsfrist, nicht verlängerbar ([bdo.at](https://www.bdo.at/de-at/blog/tax-news/finanzamtsmeldung-bei-depotuebertragungen-ins-inland))
+- **Finance Magnates** zur Übernahme der FXFlat Bank und zum Onboarding neuer Kunden ([financemagnates.com](https://www.financemagnates.com/forex/trading-212-starts-onboarding-new-users-in-germany-through-acquired-fxflat-bank/))
 
 ---
 
-*Dieser Artikel ist keine Steuerberatung, sondern eine Aufbereitung öffentlich zugänglicher Quellen. Ob die Konzernmigration in Deinem Fall als steuerneutral gilt, ist mangels BMF-Stellungnahme nicht abschließend geklärt — im Zweifel Steuerberater fragen.*
+*Dieser Artikel ist keine Steuerberatung, sondern eine Aufbereitung öffentlich zugänglicher Quellen. Fristen und Meldewege solltest Du für Deinen konkreten Fall mit Deinem Steuerberater abklären — insbesondere dann, wenn die Monatsfrist bereits verstrichen ist.*
