@@ -1,19 +1,19 @@
 ---
 title: 'IBKR FlexQuery für die AT-Steuererklärung einrichten — Schritt für Schritt'
 date: 2026-05-31
-lastmod: 2026-05-31
-description: 'Wie Du in Interactive Brokers eine Activity Flex Query erstellst, die alle für die österreichische E1kv nötigen Daten enthält — Trades, Dividenden, Quellensteuer, Cash Transactions. Mit der Section-Checkliste, die wirklich passt.'
-keywords: ['IBKR FlexQuery', 'IBKR FlexQuery erstellen', 'Activity Flex Query', 'IBKR Steuer Österreich', 'Interactive Brokers Steuererklärung', 'IBKR XML Export', 'IBKR Activity Statement Steuer']
+lastmod: 2026-09-15
+description: 'Wie Du in Interactive Brokers eine Activity Flex Query erstellst, die alle für die österreichische E1kv nötigen Daten enthält — Trades, Dividenden, Quellensteuer, Cash Transactions. Mit der Section-Checkliste, den leicht übersehenen Detailoptionen und den exakten Formatwerten.'
+keywords: ['IBKR FlexQuery', 'IBKR FlexQuery erstellen', 'Activity Flex Query', 'IBKR Steuer Österreich', 'Interactive Brokers Steuererklärung', 'IBKR XML Export', 'FlexQuery Executions', 'Flex Web Service Token']
 tags: ['FlexQuery', 'IBKR', 'Steuererklärung', 'Österreich']
 ---
 
 # IBKR FlexQuery für die AT-Steuererklärung einrichten
 
-> **Stand:** 2026-05-31 · **Lesezeit:** ~8 Minuten · **Gilt für:** AT-Privatpersonen, IBKR Client Portal 2026
+> **Stand:** 2026-09-15 · **Lesezeit:** ~9 Minuten · **Gilt für:** AT-Privatpersonen, IBKR Client Portal 2026
 
 Für die österreichische Steuererklärung („E1kv ohne KESt-Abzug") brauchst Du aus Interactive Brokers **alle** Trades, Dividenden, Quellensteuer-Abzüge und Cash-Bewegungen eines Kalenderjahres — in einem Format, das maschinenlesbar ist. Das **Activity Statement** im PDF reicht dafür nicht. Du brauchst eine **Activity Flex Query** als XML.
 
-Diese Anleitung zeigt **welche Sections genau anhaken sind**, damit nichts fehlt — und welche oft vergessen werden.
+Diese Anleitung zeigt, **welche Sections Du anhakst**, welche **Detailoptionen** innerhalb der Sections leicht übersehen werden — und mit welchen **Formatwerten** die XML später sauber einlesbar ist.
 
 > 💡 **Quick-Win:** Wenn Du den Export samt KZ-Zuordnung automatisieren willst — am Ende des Artikels gibt es einen Link zu einem [Tool](#tool), das die FlexQuery direkt einliest und die E1kv-Beilage erzeugt.
 
@@ -21,11 +21,12 @@ Diese Anleitung zeigt **welche Sections genau anhaken sind**, damit nichts fehlt
 
 1. Warum FlexQuery (und nicht das normale Activity Statement)?
 2. Wo findest Du FlexQueries im IBKR Client Portal?
-3. Die Pflicht-Sections für die AT-Steuererklärung
-4. Format, Zeitraum, Optionen
-5. Speichern, Ausführen, Download
-6. Häufige Fehler
-7. Tool spart Dir die FlexQuery-Konfiguration
+3. Die Sections
+4. Die Detailoptionen, die fast alle übersehen
+5. Allgemeine Konfiguration: Formatwerte
+6. Zeitraum, Speichern, Download
+7. Häufige Fehler
+8. Tool spart Dir die FlexQuery-Auswertung
 
 ---
 
@@ -47,136 +48,165 @@ Die FlexQuery ist also nicht „die luxuriöse Variante", sondern für AT-Steuer
 ## 2. Wo findest Du FlexQueries im IBKR Client Portal?
 
 1. Login im Client Portal (https://www.interactivebrokers.com → „Login" oben rechts).
-2. Im Menü oben rechts auf das **Personen-Icon** klicken → **Settings**.
-3. In der linken Spalte: **Account Settings**.
-4. Im Block **Reporting** den Eintrag **Flex Queries** öffnen.
+2. Menü **Berichte / Reports** → **Flex Queries**.
+3. Du landest auf einer Seite mit zwei Bereichen:
+   - **Activity Flex Query** ← das willst Du
+   - **Trade Confirmation Flex Query** ← brauchst Du **nicht**
+4. Unter „Activity Flex Query" auf **+** (Neu / Create) klicken.
 
-Du landest auf einer Seite mit zwei Tabellen:
-- **Activity Flex Query** ← das willst Du
-- **Trade Confirmation Flex Query** ← brauchst Du **nicht**
-
-Klicke unter „Activity Flex Query" auf **Create** (das `+`-Symbol).
-
-> 🇬🇧 Falls die Oberfläche bei Dir auf Englisch ist — die Menüpunkte heißen identisch. IBKR übersetzt diese Section schon Jahre nicht.
+> 🇬🇧🇩🇪 Die Oberfläche gibt es auf Englisch und Deutsch. Die Section-Namen bleiben meist englisch, die allgemeinen Einstellungen sind teilweise übersetzt — unten stehen deshalb beide Bezeichnungen. Menüpfade können je nach Portal-Version leicht abweichen.
 
 ---
 
-## 3. Die Pflicht-Sections für die AT-Steuererklärung
+## 3. Die Sections
 
-Im Create-Dialog gibst Du der Query zuerst einen **Query Name** (z.B. `AT_Steuer_2025`). Dann scrollst Du zur Liste **Sections**. Hier kommt die kritische Entscheidung — welche Sections Du anhakst.
+Im Create-Dialog gibst Du der Query zuerst einen **Namen** (z.B. `AT_Steuer`). Dann aktivierst Du die Sections. Innerhalb jeder Section: **alle Felder auswählen.**
 
-### ✅ Pflicht-Sections (anhaken)
+### ✅ Unverzichtbar
 
 | Section | Warum Du das brauchst |
 |---------|----------------------|
-| **Trades** | Jeder Aktien-/Options-/Forex-Trade. Basis für Avg-Cost-Berechnung der realisierten Gewinne (KZ 994/892, 995/896). |
-| **Cash Transactions** | Dividenden, Payment In Lieu, Quellensteuer, Broker-Zinsen, Gebühren. Basis für KZ 863, 861, 998. |
-| **Open Positions** | Wertpapierbestand zum Stichtag — Basis für offene Positionen + Avg-Cost-Übertrag ins Folgejahr. |
-| **Statement of Funds** | Cash-Flow-Bewegungen je Währung. Cross-Check, ob die Summen mit den Cash Transactions zusammenpassen. |
-| **Conversion Rates** | EUR-Wechselkurse zum jeweiligen Buchungstag. **Pflicht** — ohne diese kannst Du USD-Dividenden nicht korrekt in EUR umrechnen. |
+| **Trades** | Jeder Aktien-/Options-/Forex-Trade. Basis für die Avg-Cost-Berechnung der realisierten Gewinne. **Detailoption „Executions" anhaken — siehe Abschnitt 4.** |
+| **Cash Transactions** | Dividenden, Payment In Lieu, Quellensteuer, Broker-Zinsen, Gebühren. Basis für KZ 863 und die anrechenbare Quellensteuer (KZ 998). |
+| **Open Positions** | Wertpapierbestand zum Stichtag — Basis für offene Positionen und den Einstand von Altbeständen. |
+| **Statement of Funds** | Cash-Flow-Bewegungen je Währung. Cross-Check, ob die Summen zusammenpassen. |
+| **Conversion Rates** | EUR-Wechselkurse zum Buchungstag. Ohne sie lassen sich USD-Beträge nicht korrekt in EUR umrechnen. |
+| **Corporate Actions** | Splits, Spin-Offs, Ticker-Wechsel. Sonst zerschießt Dir ein Aktiensplit die Avg-Cost-Berechnung. |
+| **Transfers** | Überträge von/zu anderen Brokern — die Anschaffungskosten müssen mitwandern. |
 
-### 🔲 Optionale, aber empfohlene Sections
+### 🔲 Stark empfohlen
 
-| Section | Warum trotzdem nützlich |
-|---------|------------------------|
-| **Corporate Actions** | Splits, Spin-Offs, Ticker-Wechsel. Sonst zerschießt Dir ein Apple-1:4-Split die Avg-Cost-Berechnung. |
-| **Transfers** | Wenn Du Wertpapiere zu/von einem anderen Broker übertragen hast — die Avg-Cost-Basis muss mit übertragen werden. |
-| **Securities Info** | ISIN, Issuer-Country-Code (wichtig für Quellensteuer-DBA-Zuordnung pro Land). |
+| Section | Wofür |
+|---------|-------|
+| **Prior Period Positions** | Bestände zum Vortag — für den Übergang zwischen Abrufzeiträumen. |
+| **FX Positions** | Fremdwährungsguthaben und -salden. |
+| **Change in NAV** · **Equity Summary in Base** | Verlauf des Depotwerts — Grundlage für Rendite- und Portfolio-Auswertungen. |
+| **Change in Dividend Accruals** · **Open Dividend Accruals** | Dividenden-Abgrenzung zum Stichtag — relevant für die korrekte Periodenzuordnung zum 31.12. |
+| **Interest Accruals** · **Tier Interest Details** | Zinsabgrenzung und Zinsstaffel. |
+| **Sales Tax** | Transaktions- und Umsatzsteuern auf Gebühren. |
+| **Option EAE** (Exercise / Assignment / Expiration) | Unverzichtbar, sobald Du Optionen handelst — sonst fehlen Andienungen und Ausübungen. |
+| **MTM Performance Summary in Base** · **Realized & Unrealized Performance Summary** | IBKRs eigene Performance-Zahlen — praktisch als Gegenprobe zur eigenen Rechnung. |
+| **Account Information** | Stammdaten: Kontotyp, Basiswährung. |
 
-### ❌ Nicht relevant für die AT-Steuererklärung
-
-- Net Stock Position Summary
-- Net Asset Value
-- Tier Interest Details
-- SLB Activity
-- Salesforce Notes
-
-Diese Sections kannst Du weglassen — sie blähen nur die XML auf und tragen nichts zur E1kv bei.
+Je vollständiger die Query, desto besser lassen sich die Zahlen gegenprüfen. Eine fehlende empfohlene Section macht die Steuerberechnung nicht falsch, aber einzelne Auswertungen bleiben leer.
 
 ---
 
-## 4. Format, Zeitraum, Optionen
+## 4. Die Detailoptionen, die fast alle übersehen
 
-Im selben Create-Dialog, unter den Sections:
+Beim Bearbeiten einer Section gibt es **Detailoptionen** — sie sind leicht zu übersehen, und genau hier scheitern die meisten Einrichtungen.
+
+| Section | Anhaken |
+|---------|---------|
+| **Trades** | ☑ **Executions** *und* ☑ **Closed Lots** |
+| **Open Positions** | ☑ **Summary** *und* ☑ **Lot** |
+| **Realized & Unrealized Performance Summary** | ☑ **Detail** |
+
+> ⚠️ **„Executions" ist die wichtigste Option des ganzen Setups.** Ohne sie liefert IBKR die Section „Trades" **leer** — Bestände und Kontobewegungen kommen an, aber **kein einziger Kauf oder Verkauf**. Das fällt nicht sofort auf, weil die XML trotzdem gültig ist und die Section-Überschrift vorhanden ist. In der XML erkennst Du den Unterschied an Zeilen wie `<Trade … levelOfDetail="EXECUTION">` — fehlen sie, fehlt die Option.
+
+Die **Lot-Ebene** bei Open Positions liefert je Steuer-Lot das Anschaffungsdatum und die Kostenbasis. Erst damit kann ein Tool bei einem schon länger laufenden Konto den Einstand der Altbestände korrekt ansetzen.
+
+---
+
+## 5. Allgemeine Konfiguration: Formatwerte
+
+Am Ende des Dialogs, vor der Zustellung, steht ein Block mit allgemeinen Einstellungen. **Diese Werte exakt so setzen** — abweichende Datums- und Zeitformate machen die XML für viele Tools unlesbar.
+
+| Einstellung (DE / EN) | Wert |
+|-----------------------|------|
+| Datumsformat / Date Format | `yyyy-MM-dd` |
+| Zeitformat / Time Format | `HH:mm:ss` |
+| Datum/Uhrzeit-Trennzeichen / Date/Time Separator | **Leerzeichen** |
+| Gewinn und Verlust / Profit and Loss | Basiswährung |
+| Include Offsetting Trade/Cancel Pairs | **Nein / No** |
+| Wechselkurse miteinbeziehen / Include Currency Rates | **Ja / Yes** — nötig für die EUR-Umrechnung |
+| Prüfpfadfelder einbeziehen / Include Audit Trail Fields | Nein / No |
+| Konto-Pseudonym anstelle der Konto-ID / Display Account Alias | **Nein / No** — sonst kommen Konten verschlüsselt |
+| Aufschlüsselung nach Tagen / Breakout by Day | **Nein / No** — sonst kommen Buchungen mehrfach |
+| Zahlenformat / Number Format | ohne Tausendertrenner |
+
+Mit diesen Werten sieht ein Zeitstempel in der XML so aus: `2025-05-15 20:59:59`.
+
+> ⚠️ **Achtung Zeitzone:** IBKR liefert Zeitstempel in New Yorker Zeit, teils mit Suffix wie `EDT` oder `EST`. New York liegt in der Regel sechs Stunden hinter Wien. Kritisch ist der Jahreswechsel: Ein Trade am **31. Dezember um 20:00 New Yorker Zeit** ist in Wien bereits der **1. Jänner**. Ein Tool muss das bewusst behandeln, sonst landet ein Trade im falschen Steuerjahr.
+
+---
+
+## 6. Zeitraum, Speichern, Download
 
 ### Format
 - **XML** wählen. **Nicht CSV.**
-- Begründung: XML hat strikte Tags (`<Trade>`, `<CashTransaction>`), CSV mischt Sections und ändert Header je Version.
 
-### Period
-- **Last Year** wenn Du das gesamte Vorjahr willst (typisch für die Steuererklärung im April).
-- **Year to Date** wenn Du laufende Werte fürs aktuelle Jahr willst (für unterjährige Kontrollen).
-- **Custom Date Range** wenn Du z.B. nur ein Quartal brauchst.
+### Zeitraum
+Eine einzelne Abfrage deckt **höchstens ein Jahr** ab. Daraus ergeben sich zwei typische Setups:
 
-> ⚠️ **Achtung Zeitzone:** IBKR liefert Timestamps in **EST (New York)**. Ein Trade am 1. Jänner 02:00 EST = noch 31. Dezember Vorjahres-Wien. Das Avg-Cost-Tool muss das berücksichtigen, sonst landet ein Trade im falschen Steuerjahr.
+- **Für den laufenden automatischen Abruf:** „Letzte n Kalendertage" mit z.B. **14 Tagen**. Ein Tool, das den Datenbestand fortlaufend sammelt, braucht nicht bei jedem Abruf die volle Historie.
+- **Für vergangene Jahre:** je Jahr eine eigene Abfrage mit **Custom Date Range**, z.B. `2025-01-01` bis `2025-12-31`, einmalig ausführen und die XML herunterladen. Für drei vergangene Jahre also drei Dateien.
 
-### Wichtige Optionen anhaken
+### Speichern und ausführen
+1. **Speichern / Save**. In der Liste steht nun die **Query ID** (eine Zahl) — die brauchst Du für die Automatisierung.
+2. Neben dem Namen auf das **Play-Icon** (▶) klicken, Zeitraum bestätigen, **Run**.
+3. Die erste Generierung dauert je nach Kontovolumen 30 Sekunden bis einige Minuten.
+4. **Download** — die XML liegt auf Deinem Rechner.
 
-| Option | Wert |
-|--------|------|
-| **Include Canceled Trades?** | **No** — sonst zählen stornierte Trades doppelt |
-| **Display Header/Trailer Records?** | **Yes** — Hash-Summen zur Integritätsprüfung |
-| **Profit and Loss** | **Default** lassen — das Tool rechnet ohnehin Avg-Cost neu |
-| **Date Format** | `yyyy-MM-dd` (ISO) — sonst MM/DD/YYYY und das ist Sprachen-abhängig |
-| **Time Format** | `HHmmss` (24h) |
-| **Date/Time Separator** | `;` (Semikolon — sonst kollidiert mit Komma in CSV-Importen) |
+### Automatisierung über den Flex Web Service
+Statt jedes Mal manuell herunterzuladen, kannst Du die Daten automatisch abrufen lassen:
 
----
+1. Im selben Bereich **Flex Web Service** öffnen und aktivieren.
+2. Einen **Token** generieren — auf der deutschsprachigen IB-Seite heißt er **„Prüfcode"**. Er erlaubt nur den lesenden Abruf von Berichten.
+3. **Query ID** und **Token** im Tool hinterlegen.
 
-## 5. Speichern, Ausführen, Download
-
-1. Unten rechts **Save** klicken. Die Query erscheint jetzt in der Liste „Activity Flex Query".
-2. Neben dem Namen siehst Du ein **Play-Icon** (▶). Klicken.
-3. Im Popup den **Zeitraum bestätigen** und auf **Run** klicken.
-4. IBKR generiert die XML. **Erste Generierung dauert je nach Account-Volumen 30 Sekunden bis 5 Minuten.**
-5. Im selben Popup auf **Download** klicken — die XML liegt jetzt auf Deinem Rechner.
-
-**Datei-Größe:** Bei 200–500 Trades/Jahr typischerweise 0,5–3 MB.
-
-### Automatisierung über die Flex Web Service API
-
-Wenn Du das Tool [DepotTax](#tool) verwendest, brauchst Du keinen manuellen Download. Du legst die FlexQuery einmal an und erzeugst einen **Token** (Settings → Reporting → Flex Web Service → Configure). Das Tool zieht sich die XML dann jeden Nacht automatisch.
+> ℹ️ Tokens haben ein **Ablaufdatum**. Läuft er ab, im selben Bereich einfach einen neuen erzeugen und im Tool aktualisieren.
 
 ---
 
-## 6. Häufige Fehler
+## 7. Häufige Fehler
+
+### „Die Section Trades ist leer — aber Bestände und Kontobewegungen sind da"
+Detailoption **Executions** nicht angehakt. Die Section existiert in der XML, enthält aber keine `<Trade>`-Zeilen. Query bearbeiten, bei Trades **Executions** anhaken, speichern — beim nächsten Abruf kommen die Trades des abgefragten Zeitraums nach.
 
 ### „Bei meiner FlexQuery fehlen die Quellensteuer-Buchungen"
-Section **Cash Transactions** vergessen. Reine `Trades`-Section enthält keine Dividenden/Quellensteuer — das sind technisch keine Trades.
+Section **Cash Transactions** vergessen. Die Section Trades enthält keine Dividenden und keine Quellensteuer — das sind technisch keine Trades.
 
 ### „USD-Beträge sind ohne EUR-Umrechnung"
-Section **Conversion Rates** vergessen. Ohne FX-Kurse zum Buchungstag musst Du sonst pro Buchung den EZB-Tageskurs manuell ergänzen — bei 200 Dividenden ein Vormittag im Excel.
+Section **Conversion Rates** fehlt oder **Wechselkurse miteinbeziehen** steht auf Nein.
+
+### „Mein Tool kann die Datums- oder Uhrzeitfelder nicht lesen"
+Datums-/Zeitformat oder Trennzeichen abweichend gesetzt. Zurück auf `yyyy-MM-dd`, `HH:mm:ss` und **Leerzeichen** als Trennzeichen.
 
 ### „Mein Avg-Cost stimmt nicht — IBKR sagt was anderes"
-Das ist **normal und erwartet**. IBKR rechnet `Maximizing Profits` oder `LIFO` oder `Specific Lots` — je nach Konto-Setting. AT verlangt **Avg-Cost (§ 27a Abs 4 EStG)**. Das Steuer-Tool muss Avg-Cost selbst nachrechnen aus den Roh-Trades. Die IBKR-PnL-Spalte ist für die AT-Steuererklärung **nicht** maßgeblich.
+Das ist **normal und erwartet**. IBKR rechnet je nach Konto-Einstellung mit anderen Lot-Methoden. AT verlangt den **gleitenden Durchschnittspreis (§ 27a Abs 4 Z 1 EStG)**. Das Steuer-Tool muss ihn selbst aus den Roh-Trades nachrechnen — die IBKR-PnL-Spalte ist für die AT-Steuererklärung **nicht** maßgeblich.
 
 ### „Corporate Action hat mein Avg-Cost zerstört"
-Section **Corporate Actions** war nicht angehakt. Bei einem Apple-1:4-Split steht in Trades ein „Split-Trade" ohne Cashflow — ohne die Corporate-Actions-Section sieht das Tool die Stückzahlen-Anpassung nicht und rechnet die Avg-Cost-Basis falsch.
+Section **Corporate Actions** war nicht angehakt. Ohne sie sieht ein Tool die Stückzahlanpassung bei einem Split nicht und rechnet die Kostenbasis falsch.
 
-### „Ich habe vor 2 Jahren von Lynx zu IBKR übertragen — die Avg-Cost-Basis ist 0"
-Section **Transfers** anhaken. Aber: bei Transfers von **vor** dem ersten IBKR-Trade muss die historische Basis manuell aus dem alten Broker-Statement rekonstruiert werden — keine FlexQuery der Welt kann Daten liefern, die der Broker nicht hat.
+### „Ich habe von einem anderen Broker zu IBKR übertragen — die Kostenbasis ist 0"
+Section **Transfers** anhaken. Aber: Bei Überträgen **vor** dem ersten IBKR-Trade muss die historische Basis aus dem alten Broker-Statement nachgewiesen werden — keine FlexQuery kann Daten liefern, die der Broker nicht hat.
 
-### „Period: Last Year — aber ich kriege nur 11 Monate"
-Du hast die Query vor Jahresende erstellt und IBKR interpretiert „Last Year" relativ. Lösung: **Custom Date Range** mit explizitem `2025-01-01` bis `2025-12-31`.
+### „Meine Historie reicht nur ein paar Wochen zurück"
+Die automatische Abfrage hat einen kurzen Zeitraum. Für vergangene Jahre je Jahr eine **Custom Date Range** exportieren und die Dateien einmalig einspielen.
 
 ---
 
-## 7. <a id="tool"></a>Tool spart Dir die FlexQuery-Konfiguration
+## 8. <a id="tool"></a>Tool spart Dir die FlexQuery-Auswertung
 
-Wenn Du nicht jedes Jahr durch diese Section-Checkliste musst:
+Wenn Du die XML nicht selbst auswerten willst:
 
-> 🛠 **[DepotTax](https://depottax.at)** liest Deine Activity Flex Query ein und erzeugt die E1kv-Beilage direkt — inkl. AT-konformer Avg-Cost-Berechnung, DBA-Quellensteuer-Cap pro Land und PDF für den Steuerberater. Du kannst entweder die XML manuell hochladen oder über den **Flex Web Service Token** automatisch synchronisieren lassen.
+> 🛠 **[DepotTax](https://depottax.at)** liest Deine Activity Flex Query ein und erzeugt die E1kv-Kennzahlen — mit AT-konformem gleitendem Durchschnittspreis, getrennten Steuertöpfen und Herleitung bis auf die einzelne Transaktion. Du kannst die XML hochladen oder über den **Flex Web Service Token** automatisch abrufen lassen. Die App prüft außerdem, ob Deine Bestände zu den importierten Trades passen, und warnt, wenn etwas fehlt.
 
-Aktuell in geschlossener Beta. Melde Dich falls Du dabei sein willst.
+Aktuell in geschlossener Beta. Melde Dich, falls Du dabei sein willst.
 
 ### Verwandte Guides
 
-- [E1kv ausfüllen für IBKR-User (Österreich 2026)](./e1kv-ausfuellen-ibkr/) — der nächste Schritt nach dem FlexQuery-Setup
-- [KZ 863 vs KZ 994 — wo trage ich was ein?](./kz-863-vs-kz-994/) — Zuordnungstabelle pro Buchungstyp
+- [E1kv ausfüllen für IBKR-User (Österreich 2026)](/posts/e1kv-ausfuellen-ibkr/) — der nächste Schritt nach dem FlexQuery-Setup
+- [KZ 863 vs KZ 994 — wo trage ich was ein?](/posts/kz-863-vs-kz-994/) — Zuordnungstabelle pro Buchungstyp
+- [Depotübertrag bei IBKR — muss ich das erklären?](/posts/depotuebertrag-ibkr-oesterreich/)
 
 ### Quellen
 
 - IBKR Knowledge Base: „Activity Flex Query — Sections Reference"
 - IBKR Help Center: „Flex Web Service Configuration"
-- BMF-Formularhilfe E1kv 2025 (zur Sections-Anforderung)
-- EStG § 27a Abs 4 (Avg-Cost-Pflicht)
+- EStG § 27a Abs 4 Z 1 (gleitender Durchschnittspreis)
+
+---
+
+*Dieser Artikel ist keine Steuerberatung, sondern eine technische Anleitung. Menübezeichnungen im IBKR-Portal können sich ändern.*
