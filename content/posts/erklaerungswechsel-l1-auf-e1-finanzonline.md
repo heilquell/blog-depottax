@@ -29,11 +29,13 @@ Das Formular dafür ist die **E1**, die Einkommensteuererklärung, und darin die
 
 Die gute Nachricht zuerst: **Du gibst nicht beide Formulare ab.** Die E1 ersetzt die L1 vollständig. Deine Lohndaten muss Du dabei nicht abtippen — der Lohnzettel Deines Arbeitgebers liegt dem Finanzamt bereits vor und wird in die E1 übernommen.
 
-In FinanzOnline heißt der Vorgang **Erklärungswechsel**. Du beantragst ihn für das betreffende Jahr, und danach steht Dir für dieses Jahr die E1 zur Verfügung statt der L1.
+In FinanzOnline heißt der Vorgang **Erklärungswechsel**, und er liegt unter **„Weitere Services" → „Erklärungswechsel"**. Abgeschickt wird er über den Button „Prüfung und Einbringen".
 
-Zwei Dinge, die dabei regelmäßig für Verwirrung sorgen:
+Drei Dinge, die dabei regelmäßig für Verwirrung sorgen:
 
-**Der Wechsel gilt pro Jahr,** nicht ein Mal für immer. Hast Du 2025 Kapitalerträge und 2026 nicht, kannst Du für 2026 wieder die Arbeitnehmerveranlagung machen.
+**Du bekommst keine Bestätigung.** Der Antrag geht ans Finanzamt, eine Rückmeldung zum Ergebnis gibt es nicht. Bis er bearbeitet ist, bleibt Dein Antrag in FinanzOnline sichtbar, aber nicht änderbar — und die E1 erscheint erst danach. Plane also ein paar Tage ein und beantrage den Wechsel nicht am Abend vor der Abgabefrist.
+
+**Der Wechsel gilt dauerhaft, nicht nur für ein Jahr.** Das ist der Punkt, an dem die meisten etwas anderes erwarten. Hast Du nächstes Jahr keine Kapitalerträge mehr und willst zurück zur Arbeitnehmerveranlagung, musst Du Dich dafür ans Finanzamt wenden — von selbst geht es nicht zurück.
 
 **Hast Du die L1 für das Jahr schon abgegeben,** ist noch nichts verloren. Solange kein Bescheid ergangen ist, lässt sich die Erklärung ändern; ist der Bescheid schon da, führt der Weg über eine Berichtigung oder — in bestimmten Fällen — über die Wiederaufnahme. Das ist kein Drama, kostet aber Zeit, weshalb der Wechsel besser vor der ersten Abgabe passiert.
 
@@ -45,7 +47,7 @@ Das PDF, das Du auf der Website des Finanzministeriums findest, ist nur die Papi
 
 Praktisch heißt das: Du brauchst am Ende nicht ein fertiges Dokument, sondern **eine Handvoll Zahlen zu den richtigen Kennzahlen**. Zum Beispiel die Summe Deiner Substanzgewinne, Deine Dividenden, die einbehaltene ausländische Quellensteuer. Diese Zahlen trägst Du ein, und damit ist die Beilage erledigt.
 
-Es gibt daneben einen echten Datei-Upload in FinanzOnline, die sogenannte Erklärungs-Übermittlung per Datenstrom. Der ist aber etwas ganz anderes und **nicht** der bequeme Weg, den man sich davon erhofft: Damit reichst Du die **komplette Einkommensteuererklärung** in einem Zug ein, und alles, was in der Datei nicht vorkommt, gilt als nicht angegeben. Warum das gefährlicher ist, als es klingt, haben wir in einem eigenen Artikel beschrieben.
+Es gibt daneben einen echten Datei-Upload in FinanzOnline, die sogenannte Erklärungs-Übermittlung per Datenstrom. Der ist aber etwas ganz anderes und **nicht** der bequeme Weg, den man sich davon erhofft: Damit reichst Du die **komplette Einkommensteuererklärung** in einem Zug ein, und alles, was in der Datei nicht vorkommt, gilt als nicht angegeben. Warum das gefährlicher ist, als es klingt, steht in [„Upload-fertiges FinanzOnline-XML" — warum dieses Feature gefährlicher ist, als es klingt](/posts/finanzonline-xml-upload-falle/).
 
 ## Musst Du überhaupt abgeben?
 
@@ -67,16 +69,19 @@ Zwei Feinheiten, die dabei gern untergehen:
 
 Der Schritt, der die Arbeit macht, ist Nummer zwei. Alles andere ist Formularmechanik.
 
-<!-- REVIEW Georg:
-  1. "Erklärungswechsel": Menü-Bezeichnung in FinanzOnline bitte am eigenen
-     Zugang gegenprüfen, ich habe keinen Zugang und keine verifizierte Quelle.
-  2. Bagatellgrenze absichtlich OHNE Zahl und ohne Paragraf: Die verbreitete
-     730-Euro-Grenze (§ 41 EStG) habe ich NICHT extern verifiziert. Entweder
-     Du prüfst sie und setzt sie ein, oder es bleibt bei "niedrig".
-  3. Frist (30.04./30.06. elektronisch) absichtlich weggelassen -- gehört
-     hinein, wenn Du die aktuellen Termine geprüft hast.
-  4. Berichtigung nach Bescheid: nur grob umschrieben (Berichtigung/
-     Wiederaufnahme). Falls praeziser, dann mit Fundstelle.
-  5. Link auf den XML-Artikel ist im Text nur erwaehnt, nicht verlinkt --
-     bitte Hugo-Link setzen (finanzonline-xml-upload-falle).
--->
+## Weiterlesen
+
+- [E1kv ausfüllen mit IBKR-Daten](/posts/e1kv-ausfuellen-ibkr/) — welche Kennzahl welche Zahl bekommt
+- [„KESt-endbesteuert" — was das wirklich heißt](/posts/kest-endbesteuerung-ibkr/) — warum beim Auslandsbroker nichts abgegolten ist
+- [Anrechenbare Quellensteuer bei US-, CH- und UK-Dividenden](/posts/quellensteuer-ibkr-usa-schweiz-uk/)
+
+## Quellen
+
+- [FinanzOnline — Erklärungswechsel: Klickweg und Ablauf (broker-test.at)](https://www.broker-test.at/steuern/erklaerungswechsel/)
+- [Erklärungswechsel — Überblick (freefinance.at)](https://freefinance.at/selbststaendig-machen/erklaerungswechsel.html)
+- [Formulare des Bundesministeriums für Finanzen](https://service.bmf.gv.at/service/anwend/formulare)
+
+<!-- Bewusst OHNE Zahl bzw. ohne Fundstelle geschrieben, weil extern nicht
+     verifiziert: die Bagatellgrenze fuer andere Einkuenfte (verbreitet
+     730 EUR, § 41 EStG) und die Abgabefristen. Wer sie ergaenzt, prueft sie
+     vorher und setzt eine Quelle dazu. -->

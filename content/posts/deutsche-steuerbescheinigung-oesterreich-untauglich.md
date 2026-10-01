@@ -1,4 +1,6 @@
 ---
+draft: true   # vorgemerkt 01.10.2026: erst veroeffentlichen, wenn die
+              # Werte im REVIEW-Block am Dateiende geprueft sind
 title: 'Die Steuerbescheinigung Deines deutschen Brokers ist für Österreich fast wertlos'
 date: 2026-09-30
 lastmod: 2026-09-30
