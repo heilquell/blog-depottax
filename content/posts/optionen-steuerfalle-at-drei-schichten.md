@@ -129,7 +129,7 @@ Wer **gleichzeitig** Optionen, Aktien und Anleihen über einen Auslandsbroker h�
 
 Plus Sonderfälle wie ausschüttungsgleiche Erträge bei thesaurierenden Fonds (KZ 937 jahresweise, AW-Korrektur), Bond-Stückzinsen, Forex-Speku, Andienungen aus Stillhalter-Strategien. Jeder dieser Posten hat seine eigene KZ-Logik in der E1kv-Beilage.
 
-**Hier setzt unser Tool an:** [depottax.at](https://depottax.at) liest Trade-Daten direkt aus dem Broker-FlexQuery, klassifiziert pro Position in den richtigen Topf, rechnet sauber AVG-Cost (AT-Pflichtmethode nach § 27a Abs 4 Z 1 EStG) und liefert eine E1kv-fertige PDF/Excel-Aufstellung — inklusive Audit-Spalten für die BP-Prüfung. Der manuelle Aufwand sinkt von Tagen auf Minuten.
+**Hier setzt unser Tool an:** [depottax.at](https://depottax.at) liest Trade-Daten direkt aus dem Broker-FlexQuery, klassifiziert pro Position in den richtigen Topf, rechnet sauber AVG-Cost (AT-Pflichtmethode nach § 27a Abs 4 Z 3 EStG) und liefert eine E1kv-fertige PDF/Excel-Aufstellung — inklusive Audit-Spalten für die BP-Prüfung. Der manuelle Aufwand sinkt von Tagen auf Minuten.
 
 ## Fazit
 

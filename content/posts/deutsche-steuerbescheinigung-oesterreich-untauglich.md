@@ -41,7 +41,7 @@ Für eine grobe Hausnummer geht das. Für eine Steuererklärung nicht, und zwar 
 
 **Die ausländische Quellensteuer fehlt in der Rechnung.** Auf US-Dividenden sind typischerweise 15 % einbehalten worden. Die werden in Österreich angerechnet — aber nur, wenn Du sie in der richtigen Kennzahl angibst. Vergisst Du sie, zahlst Du doppelt.
 
-**Der Einstandskurs wird in Österreich anders ermittelt.** Deutschland rechnet nach dem Prinzip „zuerst gekauft, zuerst verkauft". Österreich schreibt den **gleitenden Durchschnittspreis** vor (§ 27a Abs 4 Z 1 EStG). Bei mehreren Zukäufen desselben Papiers kommen die beiden Verfahren zu unterschiedlichen Gewinnen — pro Verkauf, nicht nur in der Summe. Die Gewinne in der deutschen Bescheinigung sind damit für Österreich systematisch falsch berechnet, auch wenn jede Zeile für sich korrekt ist.
+**Der Einstandskurs wird in Österreich anders ermittelt.** Deutschland rechnet nach dem Prinzip „zuerst gekauft, zuerst verkauft". Österreich schreibt den **gleitenden Durchschnittspreis** vor (§ 27a Abs 4 Z 3 EStG). Bei mehreren Zukäufen desselben Papiers kommen die beiden Verfahren zu unterschiedlichen Gewinnen — pro Verkauf, nicht nur in der Summe. Die Gewinne in der deutschen Bescheinigung sind damit für Österreich systematisch falsch berechnet, auch wenn jede Zeile für sich korrekt ist.
 
 ## Der Punkt, über den die meisten stolpern: Wann ist der Ertrag zugeflossen?
 
