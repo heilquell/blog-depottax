@@ -115,7 +115,7 @@ Dazu kommen zwei Korrekturen, die ein deutscher Report überhaupt nicht kennt:
 - **Thesaurierende ETFs:** Jeder bereits versteuerte ausschüttungsgleiche Ertrag **erhöht** Deine Anschaffungskosten. Wer das weglässt, meldet zu niedrige Werte und zahlt beim späteren Verkauf doppelt. Details in [KZ 937 und die Anschaffungswerts-Korrektur](/posts/kz-937-oekb-ausschuettungsgleich/).
 - **Kaufspesen:** In Deutschland erhöhen sie die Anschaffungskosten, in Österreich dürfen sie bei Privatvermögen **nicht** angesetzt werden (§ 27a Abs 4 Z 2 EStG). Ein aus deutschen Daten übernommener Einstand ist deshalb systematisch zu hoch.
 
-Unterm Strich: Eine deutsche Jahresbescheinigung ist für die österreichische Meldung kein Ersatz für eine eigene Rechnung. Sie ist in sich korrekt und beantwortet trotzdem eine andere Frage.
+Unterm Strich: Eine deutsche Jahresbescheinigung ist für die österreichische Meldung kein Ersatz für eine eigene Rechnung. Sie ist in sich korrekt und beantwortet trotzdem eine andere Frage — warum das so ist, steht in [Die Steuerbescheinigung Deines deutschen Brokers ist für Österreich fast wertlos](/posts/deutsche-steuerbescheinigung-oesterreich-untauglich/).
 
 ## Das Übergangsjahr: Du hast beides
 
@@ -162,6 +162,7 @@ Scalable Capital ist seit 8. Oktober 2026 für Neukunden steuereinfach, Bestands
 ### Verwandte Guides
 
 - [Trading 212 zieht Österreicher nach Deutschland um](/posts/trading212-oesterreich-depotuebertrag-deutschland/) — derselbe Mechanismus, Richtung Ausland auf Ausland (Fallcode 274T)
+- [Die Steuerbescheinigung Deines deutschen Brokers](/posts/deutsche-steuerbescheinigung-oesterreich-untauglich/) — warum die Zahlen daraus für Österreich nicht passen, und warum Du sie trotzdem behalten musst
 - [Vom Erste-Bank-Depot zu IBKR](/posts/at-bank-zu-ibkr-depotuebertrag/) — die umgekehrte Richtung, Inland auf Ausland
 - [„KESt-endbesteuert" und warum es bei Auslandsbrokern nicht greift](/posts/kest-endbesteuerung-ibkr/)
 - [KZ 937 — ausschüttungsgleiche Erträge und die Anschaffungswerts-Korrektur](/posts/kz-937-oekb-ausschuettungsgleich/)
