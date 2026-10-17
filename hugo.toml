@@ -8,6 +8,9 @@ pagination.pagerSize = 10
 
 [params]
   description = "Praktische Anleitungen zur E1kv-Beilage, KESt-Klassifikation und IBKR-FlexQuery — speziell für österreichische Privatanleger."
+  # Kurzer Zusatz fuer die <title>-Tags der Artikel (siehe layouts/_partials/head.html).
+  # site.Title bleibt lang, damit die Startseite beschreibend bleibt.
+  titleSuffix = "DepotTax"
   author = "DepotTax"
   defaultTheme = "auto"
   ShowReadingTime = true

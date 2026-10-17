@@ -76,6 +76,16 @@ In der BMF-Systematik heißt Dein Fall **274Z**: „Übertragungen auf ein Depot
 
 Falls Du Dich beim Ausfüllen vertippst: Eine **Berichtigung** ist ebenfalls innerhalb eines Monats möglich.
 
+### Das ist Scalable-Kunden schon einmal passiert
+
+Wer das Gefühl hat, so etwas schon erlebt zu haben, erinnert sich richtig. Am **6. und 7. Dezember 2025** hat Scalable die Depots seiner österreichischen Kunden von Baader auf das eigene System übertragen — ursprünglich für Anfang November geplant und dann um rund einen Monat verschoben. Auch das war ein meldepflichtiger Depotübertrag, damals zwischen zwei **ausländischen** Stellen, also der Fall 274T.
+
+Zwei Dinge daran sind für heute wichtig.
+
+Erstens das Verhalten des Brokers: Scalable hat damals rund **zwei Wochen nach dem Übertrag** einen gemeinsam mit KPMG erstellten Bericht in die Postfächer gelegt, mit den übertragenen Wertpapieren und ihren Anschaffungskosten, ausdrücklich als Grundlage für die Finanzamtsmeldung — und mit dem Hinweis, dass die Verantwortung für die Richtigkeit beim Kunden bleibt. Daraus lässt sich zweierlei lernen: Du bekommst Unterlagen, und Du bekommst sie **nicht sofort**. Von Deinem Monat ist dann schon die Hälfte vorbei.
+
+Zweitens das Timing: Der Termin wurde verschoben. Wer sich auf ein angekündigtes Datum verlässt und die Frist daran hängt, rechnet womöglich falsch. Maßgeblich ist der **tatsächliche** Übertrag, nicht der geplante — und den erkennst Du an Deinem Depotauszug, nicht an einer Pressemitteilung.
+
 ### Ein offener Punkt, ehrlich gesagt
 
 Es gibt eine Ausnahme im Gesetz für die Übertragung auf ein anderes Depot **bei derselben depotführenden Stelle** — die braucht keine Meldung. Man könnte argumentieren, eine Zweigstelle sei keine andere Stelle, weil die Scalable Capital Bank GmbH dieselbe juristische Person bleibt.
@@ -175,6 +185,7 @@ Scalable Capital ist seit 8. Oktober 2026 für Neukunden steuereinfach, Bestands
 - **BDO Austria**, „Finanzamtsmeldung bei Depotübertragungen ins Inland" — Monatsfrist nicht verlängerbar, keine Selbstanzeige, Meldung als Nachweis der Anschaffungskosten gegenüber der inländischen Depotbank ([bdo.at](https://www.bdo.at/de-at/blog/tax-news/finanzamtsmeldung-bei-depotuebertragungen-ins-inland))
 - **Bundesministerium für Finanzen**, „Depotübertragung § 27 Abs. 6 EStG", Schnittstellenbeschreibung Stand 06.05.2026 — Fallcodes 273T, 274T, **274Z**, 274A, 275T und die Monatsfrist für Berichtigungen ([bmf.gv.at](https://www.bmf.gv.at/dam/jcr:4ea30ea0-001a-4e86-88ae-0181f2d7299b/BMF_Allgemeines_Depotuebertragung.pdf))
 - **broker-test.at**, „Scalable Capital ist jetzt steuereinfach" und die zugehörige FAQ — Datum 8.10.2026, Wiener Bankniederlassung, Status der Bestandskunden, automatischer Verlustausgleich innerhalb des Depots, KPMG-Steuerreport, Überträge zur Niederlassung derzeit nicht möglich ([Meldung](https://www.broker-test.at/news/scalable-capital-steuereinfach/), [FAQ](https://www.broker-test.at/news/faq-scalable-steuereinfach/))
+- **broker-test.at**, „Scalable Capital verschiebt Depotübertrag auf Dezember" (01.11.2025, aktualisiert 06.11.2025) — Übertrag von Baader auf Scalable am 6./7.12.2025, Monatsfrist über FinanzOnline, KPMG-Bericht rund zwei Wochen danach, Verantwortung beim Kunden ([broker-test.at](https://www.broker-test.at/news/scalable-capital-verschiebt-depotuebertrag-auf-dezember/))
 - **broker-test.at**, „Neue Meldepflichten ab 1. Juli 2026: Depotübertrag aus dem Ausland ins Inland" ([broker-test.at](https://www.broker-test.at/news/neue-meldepflichten-depotuebertrag-ausland-inland/))
 
 ---
