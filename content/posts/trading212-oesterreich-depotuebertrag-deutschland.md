@@ -83,7 +83,7 @@ Eine deutsche Depotstelle erstellt Unterlagen nach deutschem Recht. Die Begriffe
 |---|---|
 | Vorabpauschale (§ 18 InvStG) | gibt es nicht — stattdessen ausschüttungsgleiche Erträge laut OeKB, KZ 937 |
 | Teilfreistellung für Aktienfonds | gibt es nicht |
-| FIFO als Verbrauchsfolge | **gleitender Durchschnittspreis ist vorgeschrieben** (§ 27a Abs 4 Z 1 EStG) |
+| FIFO als Verbrauchsfolge | **gleitender Durchschnittspreis ist vorgeschrieben** (§ 27a Abs 4 Z 3 EStG) |
 | Verlustvortrag über Jahre möglich | für privates Kapitalvermögen ausgeschlossen |
 
 Der dritte Punkt ist der teuerste. Ein deutscher Jahressteuerbericht ist nach FIFO gerechnet. Für Österreich ist das die falsche Methode, und die Zahlen darin sind für Deine E1kv nicht verwendbar. Sie sehen nur so aus, als wären sie es.
@@ -119,7 +119,7 @@ Der Umzug von Zypern nach Ratingen ist für Österreich ein meldepflichtiger Dep
 
 ### Quellen
 
-- **EStG § 27 Abs 6 Z 2** (Depotübertragung, vierter Teilstrich erster Fall: ausländische auf ausländische depotführende Stelle), § 27a Abs 4 Z 1 (gleitender Durchschnittspreis), § 95 (Abzugsverpflichteter), § 97 (Endbesteuerung)
+- **EStG § 27 Abs 6 Z 2** (Depotübertragung, vierter Teilstrich erster Fall: ausländische auf ausländische depotführende Stelle), § 27a Abs 4 Z 3 (gleitender Durchschnittspreis), § 95 (Abzugsverpflichteter), § 97 (Endbesteuerung)
 - **Bundesministerium für Finanzen**, „Depotübertragung § 27 Abs. 6 EStG", Schnittstellenbeschreibung gültig ab 02.07.2026 — Fallcode **274T** für Überträge von einer ausländischen auf eine ausländische depotführende Stelle ([bmf.gv.at](https://www.bmf.gv.at/dam/jcr:4ea30ea0-001a-4e86-88ae-0181f2d7299b/BMF_Allgemeines_Depotuebertragung.pdf))
 - **broker-test.at**, „Trading 212 verlagert Verwahrung von Zypern nach Deutschland — ACHTUNG Ausland-Ausland-Depotübertrag" — dort auch die Feststellung, dass Trading 212 die Meldung nicht vornimmt und für österreichische Anleger nicht steuereinfach bleibt ([broker-test.at](https://www.broker-test.at/news/trading-212-verlagert-verwahrung-von-zypern-nach-deutschland-achtung-ausland-ausland-depotuebertrag/))
 - **BDO Austria**, „Finanzamtsmeldung bei Depotübertragungen" — Monatsfrist, nicht verlängerbar ([bdo.at](https://www.bdo.at/de-at/blog/tax-news/finanzamtsmeldung-bei-depotuebertragungen-ins-inland))

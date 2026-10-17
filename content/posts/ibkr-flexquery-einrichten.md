@@ -174,7 +174,7 @@ Section **Conversion Rates** fehlt oder **Wechselkurse miteinbeziehen** steht au
 Datums-/Zeitformat oder Trennzeichen abweichend gesetzt. Zurück auf `yyyy-MM-dd`, `HH:mm:ss` und **Leerzeichen** als Trennzeichen.
 
 ### „Mein Avg-Cost stimmt nicht — IBKR sagt was anderes"
-Das ist **normal und erwartet**. IBKR rechnet je nach Konto-Einstellung mit anderen Lot-Methoden. AT verlangt den **gleitenden Durchschnittspreis (§ 27a Abs 4 Z 1 EStG)**. Das Steuer-Tool muss ihn selbst aus den Roh-Trades nachrechnen — die IBKR-PnL-Spalte ist für die AT-Steuererklärung **nicht** maßgeblich.
+Das ist **normal und erwartet**. IBKR rechnet je nach Konto-Einstellung mit anderen Lot-Methoden. AT verlangt den **gleitenden Durchschnittspreis (§ 27a Abs 4 Z 3 EStG)**. Das Steuer-Tool muss ihn selbst aus den Roh-Trades nachrechnen — die IBKR-PnL-Spalte ist für die AT-Steuererklärung **nicht** maßgeblich.
 
 ### „Corporate Action hat mein Avg-Cost zerstört"
 Section **Corporate Actions** war nicht angehakt. Ohne sie sieht ein Tool die Stückzahlanpassung bei einem Split nicht und rechnet die Kostenbasis falsch.
@@ -205,7 +205,7 @@ Aktuell in geschlossener Beta. Melde Dich, falls Du dabei sein willst.
 
 - IBKR Knowledge Base: „Activity Flex Query — Sections Reference"
 - IBKR Help Center: „Flex Web Service Configuration"
-- EStG § 27a Abs 4 Z 1 (gleitender Durchschnittspreis)
+- EStG § 27a Abs 4 Z 3 (gleitender Durchschnittspreis)
 
 ---
 
