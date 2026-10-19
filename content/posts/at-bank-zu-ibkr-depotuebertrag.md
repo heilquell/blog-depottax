@@ -1,5 +1,6 @@
 ---
 title: 'Vom Erste-Bank-Depot zu IBKR: Was Du steuerlich verlierst (und gewinnst)'
+seotitle: 'Vom Bank-Depot zu IBKR: Depotübertrag AT'
 date: 2026-06-10
 lastmod: 2026-06-10
 description: 'Wer sein Depot von einer österreichischen Bank zu Interactive Brokers, CapTrader oder LYNX überträgt, verliert die KESt-Endbesteuerung — alle künftigen Erträge müssen ab dann in der Steuererklärung deklariert werden. Plus Meldepflicht innerhalb eines Monats. Was Du vor dem Übertrag aus der alten Bank holen musst, damit später keine Phantom-Gewinne entstehen.'

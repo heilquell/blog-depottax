@@ -1,5 +1,6 @@
 ---
 title: 'IBKR-Aktien-Optionen: KZ 995 mit 27,5 % oder KZ 857 mit Tarif? Was die Literatur tatsächlich sagt'
+seotitle: 'IBKR-Optionen: KZ 995 oder KZ 857?'
 date: 2026-06-16
 lastmod: 2026-06-28
 description: 'Börsennotierte Aktien-Optionen bei IBKR, CapTrader, LYNX, BANX — viele Berater tragen sie ins KZ 995 (27,5 %). Die herrschende Lehre und der VwGH sehen das anders: § 27a Abs 2 Z 7 EStG → KZ 857 mit progressivem Tarif. Was bedeutet das praktisch, wie groß ist die Differenz, und wann lohnt eine BMF-Vorabanfrage?'

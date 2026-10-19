@@ -1,5 +1,6 @@
 ---
 title: 'IBKR FlexQuery für die AT-Steuererklärung einrichten — Schritt für Schritt'
+seotitle: 'IBKR FlexQuery einrichten (Österreich)'
 date: 2026-05-31
 lastmod: 2026-09-15
 description: 'Wie Du in Interactive Brokers eine Activity Flex Query erstellst, die alle für die österreichische E1kv nötigen Daten enthält — Trades, Dividenden, Quellensteuer, Cash Transactions. Mit der Section-Checkliste, den leicht übersehenen Detailoptionen und den exakten Formatwerten.'

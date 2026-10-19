@@ -1,5 +1,6 @@
 ---
 title: '„KESt-endbesteuert" — was das wirklich heißt und warum es bei IBKR nicht greift'
+seotitle: 'KESt-endbesteuert: was es bei IBKR heißt'
 date: 2026-06-09
 lastmod: 2026-06-09
 description: 'In Österreich ist nicht alles automatisch mit der Kapitalertragsteuer abgegolten. Wer bei IBKR, CapTrader oder LYNX handelt, muss jede Position selbst in die Steuererklärung tragen — Aktien, ETFs, Anleihen, Optionen, FFB-Fonds. Warum das so ist und was daraus folgt.'

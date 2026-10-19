@@ -1,5 +1,6 @@
 ---
 title: 'Depot-Übertrag bei IBKR — muss ich das in Österreich erklären? (2026)'
+seotitle: 'Depotübertrag bei IBKR: melden in Österreich?'
 date: 2026-06-03
 lastmod: 2026-06-03
 description: 'Übertrag zwischen eigenen IBKR-Konten oder die IBKR-LLC-zu-Ireland-Migration: in Österreich grundsätzlich steuerneutral und nicht meldepflichtig — wenn die Anschaffungskosten korrekt mitwandern. Worauf Du achten musst, damit später keine Phantom-Gewinne realisiert werden.'

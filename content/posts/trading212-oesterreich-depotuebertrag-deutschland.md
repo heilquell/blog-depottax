@@ -1,5 +1,6 @@
 ---
 title: 'Trading 212 zieht Österreicher nach Deutschland um — und Du musst das dem Finanzamt melden'
+seotitle: 'Trading 212 Österreich: Umzug melden'
 date: 2026-09-10
 lastmod: 2026-09-10
 description: 'Trading 212 überträgt österreichische Kunden von der zypriotischen Einheit auf die deutsche Trading 212 EU GmbH in Ratingen. Für Österreich ist das ein Übertrag von einer ausländischen auf eine ausländische Depotstelle — und der gilt als Veräußerung, wenn Du ihn nicht binnen eines Monats dem Finanzamt meldest.'

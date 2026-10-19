@@ -1,5 +1,6 @@
 ---
 title: 'FFB-Konto neben IBKR — Steuererklärung in Österreich richtig erfassen (2026)'
+seotitle: 'FFB-Konto neben IBKR: Steuererklärung AT'
 date: 2026-06-02
 lastmod: 2026-06-02
 description: 'Praktischer Leitfaden für FFB-Konten (FIL Fondsbank) in der österreichischen E1kv: Warum keine KESt automatisch abgezogen wird, was die deutsche Jahresbescheinigung NICHT abdeckt, FIFO vs. gleitender Durchschnitt bei Sparplänen, KZ 937 bei thesaurierenden Fonds.'

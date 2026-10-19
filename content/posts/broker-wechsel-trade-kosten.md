@@ -1,5 +1,6 @@
 ---
 title: 'IBKR direkt oder Reseller (CapTrader / LYNX / Brokerport / Banx)? Ein Trade-Kosten-Vergleich (2026)'
+seotitle: 'IBKR direkt oder CapTrader/LYNX? Kosten 2026'
 date: 2026-06-04
 lastmod: 2026-10-19
 description: 'IBKR direkt vs CapTrader / LYNX / Brokerport / Banx — was bringt der Wechsel zum Direkt-Konto wirklich? Echte Trade-Kosten aus einem Konto-Wechsel 2026, mit harten Zahlen pro Aktien- und Optionstrade. Plus die Trade-Offs, die niemand in den Werbe-Tabellen schreibt.'
