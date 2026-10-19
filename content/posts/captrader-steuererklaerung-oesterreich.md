@@ -37,6 +37,7 @@ Und zur Verwahrung:
 Dein Depot liegt also in Irland, auf derselben Infrastruktur wie ein IBKR-Direktkonto. CapTrader ist die deutschsprachige Oberfläche davor. Steuerlich heißt das: **was für IBKR gilt, gilt für CapTrader**, Zeile für Zeile. Dasselbe gilt für LYNX, Banx und Brokerport.
 
 → [IBKR direkt oder Reseller? Ein Trade-Kosten-Vergleich](/posts/broker-wechsel-trade-kosten/)
+→ [LYNX Steuererklärung Österreich](/posts/lynx-steuererklaerung-oesterreich/)
 
 ## Ist CapTrader steuereinfach?
 

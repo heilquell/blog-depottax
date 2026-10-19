@@ -1,7 +1,7 @@
 ---
 title: 'IBKR direkt oder Reseller (CapTrader / LYNX / Brokerport / Banx)? Ein Trade-Kosten-Vergleich (2026)'
 date: 2026-06-04
-lastmod: 2026-06-04
+lastmod: 2026-10-19
 description: 'IBKR direkt vs CapTrader / LYNX / Brokerport / Banx — was bringt der Wechsel zum Direkt-Konto wirklich? Echte Trade-Kosten aus einem Konto-Wechsel 2026, mit harten Zahlen pro Aktien- und Optionstrade. Plus die Trade-Offs, die niemand in den Werbe-Tabellen schreibt.'
 keywords: ['IBKR Reseller Vergleich Österreich', 'CapTrader vs IBKR direkt', 'LYNX Brokerport Banx Gebühren', 'Broker-Wechsel IBKR 2026', 'Trade-Kosten IBKR Optionen', 'Introducing Broker Österreich', 'IBKR direkt Konto eröffnen AT']
 tags: ['Broker-Vergleich', 'CapTrader', 'LYNX', 'Brokerport', 'Banx', 'IBKR', 'Österreich']
@@ -68,7 +68,7 @@ Wenn IBKR direkt 18-mal billiger ist, sollten alle wechseln. Tun sie aber nicht 
 - **Persönlicher Ansprechpartner** bei Brokerport und Banx üblich; bei CapTrader gegen Mindest-Trade-Volumen; bei LYNX nur per Mail.
 - **Konto-Eröffnung auf Deutsch**, lokales KYC-Verfahren, EU-Bankverbindung für SEPA. Bei IBKR direkt ist die Eröffnung englisch, Compliance-Fragebogen umfangreicher, du brauchst U.S.-Tax-Forms (W-8BEN) — aber die füllt das Onboarding automatisch aus.
 - **Spezielle Margin-Konditionen** für Optionen-Strategien (Covered Calls, Cash-Secured Puts) bei CapTrader / Brokerport meist günstiger als bei IBKR-Default.
-- **Steuermeldungen** sind formal identisch (alle FlexQuery), aber CapTrader / LYNX bieten teilweise **vorformulierte Jahres­steuerunterlagen für AT/DE** an — das ist hilfreich für Anleger, die kein eigenes Tool nutzen.
+- **Steuermeldungen** sind formal identisch (alle FlexQuery). ⚠️ **Korrektur vom 19.10.2026:** Hier stand, CapTrader und LYNX böten teilweise vorformulierte Jahressteuerunterlagen für AT/DE an. Das trifft für Österreich nicht zu. LYNX schreibt, der informative Steuerbericht sei „aktuell nur mit einem Wohnsitz in Deutschland verfügbar" und ohnehin „kein offizielles Steuerdokument"; CapTrader stellt ausdrücklich keine Steuerbescheinigung aus. Für Österreich gibt es bei keinem der fünf Anbieter eine vorbereitete Aufbereitung — Details in [LYNX Steuererklärung Österreich](/posts/lynx-steuererklaerung-oesterreich/) und [CapTrader Steuererklärung Österreich](/posts/captrader-steuererklaerung-oesterreich/).
 
 ### Pro IBKR direkt
 

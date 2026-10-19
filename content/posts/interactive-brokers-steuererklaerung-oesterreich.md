@@ -32,6 +32,7 @@ Das gilt genauso für die Reseller, die auf der IBKR-Infrastruktur aufsitzen: **
 → [„KESt-endbesteuert" — was das wirklich heißt und warum es bei IBKR nicht greift](/posts/kest-endbesteuerung-ibkr/)
 → [IBKR direkt oder Reseller? Ein Trade-Kosten-Vergleich](/posts/broker-wechsel-trade-kosten/)
 → [CapTrader Steuererklärung Österreich](/posts/captrader-steuererklaerung-oesterreich/)
+→ [LYNX Steuererklärung Österreich](/posts/lynx-steuererklaerung-oesterreich/)
 
 ## Was Du melden musst
 
