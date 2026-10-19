@@ -1,7 +1,7 @@
 ---
 title: 'E1kv ausfüllen für IBKR-User (Österreich 2026) — vollständige Anleitung'
 date: 2026-05-31
-lastmod: 2026-05-31
+lastmod: 2026-10-19
 description: 'Schritt-für-Schritt-Anleitung zum Ausfüllen der Beilage E1kv „ohne KESt-Abzug" für österreichische Privatpersonen mit Interactive-Brokers-Konto. Inkl. KZ 863, 994, 892, 995, 896, 861, 998.'
 keywords: ['E1kv', 'E1kv ausfüllen', 'IBKR Steuer Österreich', 'Interactive Brokers KESt', 'Beilage Kapitalvermögen', 'ohne KESt-Abzug', 'KZ 863', 'KZ 994', 'FinanzOnline E1kv']
 tags: ['E1kv', 'IBKR', 'Steuererklärung', 'Österreich']
