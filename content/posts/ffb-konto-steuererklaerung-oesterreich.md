@@ -134,6 +134,10 @@ Unser Tool **[DepotTax](https://depottax.at)** löst genau diese Mischsituation:
 
 Aktuell **Beta-Phase**, Zugang auf Anfrage.
 
+### Weiterlesen
+
+- [Interactive Brokers Steuererklärung Österreich](/posts/interactive-brokers-steuererklaerung-oesterreich/) — der Überblick für das IBKR-Depot daneben: Kennzahlen, Fristen und die häufigsten Fehler
+
 ---
 
 **Du hast Korrekturen, Erfahrungen mit FFB-Sparplänen in Österreich oder einen Edge-Case der nicht abgedeckt ist?** Schreib uns: [milosiland@gmail.com](mailto:milosiland@gmail.com)

@@ -92,6 +92,10 @@ DepotTax erzeugt Dir bewusst **kein „upload-fertiges" XML**, sondern eine **ko
 
 Das ist eine Minute mehr Arbeit als ein Upload-Button. Es ist auch der Unterschied zwischen einem Report und einer versehentlich eingereichten Steuererklärung.
 
+### Weiterlesen
+
+- [Interactive Brokers Steuererklärung Österreich](/posts/interactive-brokers-steuererklaerung-oesterreich/) — der Überblick zur ganzen Erklärung: welcher Ertrag in welche Kennzahl gehört, Fristen und die fünf häufigsten Fehler
+
 ---
 
 *Dieser Artikel ist keine Steuerberatung, sondern ein Erfahrungsbericht zur Übermittlungsmechanik von FinanzOnline. Für Deine konkrete Erklärung gilt: im Zweifel Steuerberater fragen.*

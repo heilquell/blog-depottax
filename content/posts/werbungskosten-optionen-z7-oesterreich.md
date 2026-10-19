@@ -180,6 +180,7 @@ Dass jeder Posten einzeln steht, ist Absicht: Dein Steuerberater soll jede Posit
 - [IBKR-Optionen: KZ 995 oder KZ 857?](/posts/ibkr-optionen-kz-995-oder-kz-857/) — die Vorfrage: welcher Topf gilt für Deine Optionen überhaupt
 - [Die Optionen-Steuerfalle in Österreich](/posts/optionen-steuerfalle-at-drei-schichten/) — Tarif, Verlustausgleich und Verlustvortrag im Zusammenspiel
 - [E1kv ausfüllen für IBKR-User](/posts/e1kv-ausfuellen-ibkr/) — Schritt für Schritt durch die Beilage
+- [Interactive Brokers Steuererklärung Österreich](/posts/interactive-brokers-steuererklaerung-oesterreich/) — der Überblick: alle Ertragsarten, Fristen und Pflichtgrenzen
 
 ### Quellen
 

@@ -90,9 +90,15 @@ DepotTax verarbeitet **mehrere IBKR-Konten gleichzeitig pro Person** und führt 
 
 - Jeder **Open-Position-Lot** wird mit seinem **historischen `open_date`** und der **ursprünglichen Kosten­basis** importiert — auch wenn dieser Lot über einen Konten­übertrag auf das aktuelle Konto kam.
 - Die **Tax-Engine (FIFO / Avg-Cost)** rechnet realisierte Gewinne immer gegen die historische Kosten­basis, nicht gegen einen späteren Markt­wert.
-- Über alle Konten einer Person (z. B. U7960159 alt + U24061047 nach Migration) bekommst Du eine konsolidierte **Steuer­erklärungs-Beilage** als PDF — der Steuer­berater sieht beide Konten, die Werte stimmen.
+- Über alle Konten einer Person (z. B. das alte Reseller-Konto plus das neue IBKR-Konto nach der Migration) bekommst Du eine konsolidierte **Steuer­erklärungs-Beilage** als PDF — der Steuer­berater sieht beide Konten, die Werte stimmen.
 - Im **Dashboard-Hinweis** flaggen wir Konten als „geschätzter Eröffnungs­bestand" auf, wenn die Lot-Historie nicht zurückverfolgbar ist — dann weißt Du, dass Du den Kosten­basis-Check händisch machen solltest.
 
 [DepotTax → kostenlos testen](https://depottax.at/)
 
 > 💬 Bei Unsicherheit über die richtige Behandlung eines konkreten Übertrags: Steuer­berater fragen, nicht raten. Wenn Du keinen hast und es um größere Beträge geht, [team@depottax.at](mailto:team@depottax.at) schreiben — wir vermitteln gerne an AT-Spezialisten mit Broker-Erfahrung.
+
+---
+
+### Weiterlesen
+
+- [Interactive Brokers Steuererklärung Österreich](/posts/interactive-brokers-steuererklaerung-oesterreich/) — der Überblick zur ganzen Erklärung: Kennzahlen je Ertragsart, Fristen und Pflichtgrenzen

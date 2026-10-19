@@ -145,6 +145,10 @@ Die strategischen Alternativen Trading-GmbH und gewerbliche Einstufung sind in d
 
 Wer im System bleibt, sollte zumindest die korrekte Klassifizierung sicherstellen — falsche Topf-Zuordnungen führen Jahre später zu schmerzhaften BP-Korrekturen, oft mit Säumniszuschlägen. Genau dafür existiert [depottax.at](https://depottax.at).
 
+### Weiterlesen
+
+- [Interactive Brokers Steuererklärung Österreich](/posts/interactive-brokers-steuererklaerung-oesterreich/) — wo die Optionen-Töpfe in der Gesamterklärung stehen, samt Kennzahlen, Fristen und Pflichtgrenzen
+
 ---
 
 *Disclaimer: Dieser Beitrag ist eine allgemeine Information zur aktuellen Rechtslage und ersetzt keine individuelle Steuerberatung. Konkrete Sachverhalte sollten mit einem österreichischen Steuerberater geklärt werden.*
