@@ -117,4 +117,5 @@ Bei DepotTax läuft die FlexQuery für **alle 5 Anbieter identisch**: Token + Qu
 
 ### Weiterlesen
 
+- [CapTrader Steuererklärung Österreich](/posts/captrader-steuererklaerung-oesterreich/) — Steuerbericht, Quellensteuer und was CapTrader nicht ausstellt
 - [Interactive Brokers Steuererklärung Österreich](/posts/interactive-brokers-steuererklaerung-oesterreich/) — egal welcher der fünf Anbieter — die Erklärung ist dieselbe: Kennzahlen, Fristen, häufigste Fehler
