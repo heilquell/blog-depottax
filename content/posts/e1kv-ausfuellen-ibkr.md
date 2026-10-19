@@ -178,7 +178,8 @@ Aktuell in geschlossener Beta für Friends-and-Family. Wenn Du Interesse hast �
 ### Verwandte Guides
 
 - [KZ 863 vs KZ 994 — wo trage ich was ein?](/posts/kz-863-vs-kz-994/)
-- [IBKR FlexQuery für die AT-Steuererklärung einrichten](#) [in Vorbereitung]
+- [IBKR FlexQuery für die AT-Steuererklärung einrichten](/posts/ibkr-flexquery-einrichten/)
+- [Interactive Brokers Steuererklärung Österreich — Überblick](/posts/interactive-brokers-steuererklaerung-oesterreich/)
 
 ### Quellen
 

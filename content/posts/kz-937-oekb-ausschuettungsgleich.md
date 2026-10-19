@@ -119,6 +119,10 @@ Unser Tool **[DepotTax](https://depottax.at)** macht das automatisch:
 
 Aktuell **Beta-Phase**, Zugang auf Anfrage. Funktioniert mit IBKR, CapTrader, LYNX, BANX, Brokerport — sowie FFB-Konten und sonstigen manuell zu erfassenden Depots.
 
+### Weiterlesen
+
+- [Interactive Brokers Steuererklärung Österreich](/posts/interactive-brokers-steuererklaerung-oesterreich/) — der Überblick: welcher Ertrag in welche Kennzahl gehört, Fristen und die häufigsten Fehler
+
 ---
 
 **Du hast Korrekturen, Fragen oder einen Edge-Case, der nicht abgedeckt ist?** Schreib uns: [milosiland@gmail.com](mailto:milosiland@gmail.com)

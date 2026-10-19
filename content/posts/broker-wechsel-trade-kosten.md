@@ -112,3 +112,9 @@ Bei DepotTax läuft die FlexQuery für **alle 5 Anbieter identisch**: Token + Qu
 [DepotTax → kostenlos testen](https://depottax.at/)
 
 > 💬 Hast du gerade gewechselt oder überlegst zu wechseln und willst eine Zweitmeinung zu den Trade-Kosten deines aktuellen Brokers? Schreib uns an [team@depottax.at](mailto:team@depottax.at) — eine 5-Minuten-Auswertung gegen deine FlexQuery kostet nichts.
+
+---
+
+### Weiterlesen
+
+- [Interactive Brokers Steuererklärung Österreich](/posts/interactive-brokers-steuererklaerung-oesterreich/) — egal welcher der fünf Anbieter — die Erklärung ist dieselbe: Kennzahlen, Fristen, häufigste Fehler
