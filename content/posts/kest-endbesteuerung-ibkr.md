@@ -92,3 +92,7 @@ Ein normales IBKR-Konto generiert über ein Jahr leicht **mehrere hundert Realis
 - [KZ 863 vs KZ 994 — was wohin gehört](/posts/kz-863-vs-kz-994/)
 - [Anrechenbare Quellensteuer bei IBKR (USA, Schweiz, UK)](/posts/quellensteuer-ibkr-usa-schweiz-uk/)
 - [FFB-Konto in der Steuererklärung](/posts/ffb-konto-steuererklaerung-oesterreich/)
+
+### Weiterlesen
+
+- [CapTrader Steuererklärung Österreich](/posts/captrader-steuererklaerung-oesterreich/) — derselbe Fall, konkret durchgespielt an einem Anbieter
