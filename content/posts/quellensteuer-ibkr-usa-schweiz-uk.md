@@ -1,5 +1,6 @@
 ---
 title: 'Quellensteuer bei IBKR — USA, Schweiz, UK im Vergleich (AT 2026)'
+seotitle: 'Quellensteuer bei IBKR: USA, Schweiz, UK'
 date: 2026-06-03
 lastmod: 2026-06-03
 description: 'AT-Anleger bei IBKR zahlen je Emittentenland sehr unterschiedlich viel ausländische Quellensteuer. USA 15 %, Schweiz 35 % (rückforderbar), UK 0 %. Wie viel Du am Ende behältst, was Du bei der KESt anrechnen kannst und wo Du aktiv werden musst.'

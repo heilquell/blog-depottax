@@ -1,5 +1,6 @@
 ---
 title: 'Forex bei IBKR in Österreich — § 27 oder § 31 EStG? (2026)'
+seotitle: 'Forex bei IBKR: § 27 oder § 31 EStG?'
 date: 2026-06-03
 lastmod: 2026-06-03
 description: 'Spot-Forex bei IBKR ist in Österreich eine steuerliche Grauzone: Lager 1 sieht es als Termingeschäft (§ 27 Abs 4, 27,5 % Sondersatz, KZ 995/896), Lager 2 als privates Veräußerungsgeschäft (§ 31, 1-Jahres-Spekulationsfrist, Tarif). Was bedeutet das praktisch, wann brauchst Du den Steuerberater, und was passiert mit USD-Cash-Bestand?'

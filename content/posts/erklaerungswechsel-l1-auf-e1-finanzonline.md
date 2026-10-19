@@ -1,5 +1,6 @@
 ---
 title: 'Von L1 auf E1: der Erklärungswechsel in FinanzOnline — und warum Du die Beilage nicht „hochlädst"'
+seotitle: 'Von L1 auf E1 wechseln in FinanzOnline'
 date: 2026-09-30
 lastmod: 2026-09-30
 description: 'Wer Kapitalerträge aus einem Auslandsdepot hat, kann sie in der Arbeitnehmerveranlagung (L1) nicht angeben — es braucht die Einkommensteuererklärung E1 samt Beilage E1kv. Dieser Artikel erklärt den Erklärungswechsel in FinanzOnline, warum Du nicht beide Formulare abgibst, und räumt das häufigste Missverständnis aus: Die E1kv ist kein Dokument, das man irgendwo anhängt.'

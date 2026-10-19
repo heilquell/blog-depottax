@@ -1,5 +1,6 @@
 ---
 title: '„Upload-fertiges FinanzOnline-XML" — warum dieses Feature gefährlicher ist, als es klingt'
+seotitle: 'FinanzOnline-XML-Upload: die Falle'
 date: 2026-07-07
 lastmod: 2026-07-07
 description: 'Einige Steuertools werben damit, ein fertiges XML für den FinanzOnline-Upload zu erzeugen. Was dabei verschwiegen wird: Der Erklärungs-Upload reicht sofort die KOMPLETTE Einkommensteuererklärung ein — alles, was nicht im XML steht, gilt als leer, und die elektronische Berichtigung ist danach gesperrt. Wir haben das selbst erlebt. Hier ist, was wirklich passiert, und wie Du es sicher machst.'

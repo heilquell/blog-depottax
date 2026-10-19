@@ -12,8 +12,16 @@
        55 Zeichen, die Google (~60 sichtbar) praktisch nie anzeigt -- beim
        laengsten Artikel blieben 140 Zeichen, von denen die Haelfte abgeschnitten
        wird. Posts bekommen deshalb den kurzen params.titleSuffix, die Startseite
-       behaelt den vollen, beschreibenden site.Title. */}}
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ site.Params.titleSuffix | default site.Title }}{{ end }}</title>
+       behaelt den vollen, beschreibenden site.Title.
+
+       Zweiter Override (19.10.2026): optionales Front-Matter-Feld `seotitle`.
+       Google schneidet die Anzeige bei etwa 60 Zeichen ab -- mit dem Suffix
+       " | DepotTax" bleiben also rund 48 fuer den Titel. Mehrere Artikel liegen
+       weit darueber (KZ 937: 141 Zeichen, Position 8, null Klicks). Statt die
+       Ueberschriften im Artikel zu beschneiden, trennen wir beides: `seotitle`
+       geht in den <title>-Tag und damit ins Suchergebnis, `title` bleibt die
+       H1 auf der Seite. Ohne `seotitle` verhaelt sich alles wie vorher. */}}
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ with (.Params.seotitle | default .Title) }}{{ . }} | {{ end }}{{ site.Params.titleSuffix | default site.Title }}{{ end }}</title>
 
 {{- /* Meta */}}
 {{- if .IsHome }}

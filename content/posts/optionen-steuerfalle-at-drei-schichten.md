@@ -1,5 +1,6 @@
 ---
 title: 'Die drei Schichten der österreichischen Optionen-Steuerfalle: DAC, Tarif, kein Verlustvortrag'
+seotitle: 'Optionen-Steuerfalle Österreich: 3 Schichten'
 date: 2026-06-23
 lastmod: 2026-06-23
 description: 'Wer in Österreich als Privatperson echte Optionen oder Futures über einen Auslandsbroker handelt, fällt in eine dreifache Steuerfalle: keine inländische KESt-Abfuhr, voller progressiver Tarif statt 27,5 %, kein Verlustvortrag über das Jahresende hinaus. Welche Ausweg-Strategien praktikabel bleiben — und welche nur theoretisch klingen.'

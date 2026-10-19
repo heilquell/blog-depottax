@@ -1,5 +1,6 @@
 ---
 title: 'Die Steuerbescheinigung Deines deutschen Brokers ist für Österreich fast wertlos'
+seotitle: 'Deutsche Steuerbescheinigung in Österreich'
 date: 2026-10-17
 lastmod: 2026-10-17
 description: 'Scalable Capital, Trade Republic, Trading 212: Wer als Österreicher bei einem deutschen Broker liegt, bekommt im Frühjahr eine deutsche Steuerbescheinigung — und hält damit ein Dokument in der Hand, dessen wichtigste Zahlen es im österreichischen Steuerrecht gar nicht gibt. Was Du davon verwenden kannst, was nicht, und warum die verbreitete Abkürzung „alles zusammenzählen und 27,5 % davon" zu falschen Zahlen führt.'

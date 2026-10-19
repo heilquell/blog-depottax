@@ -1,5 +1,6 @@
 ---
 title: 'KZ 937 / ausschüttungsgleiche Erträge richtig melden — OeKB, Anschaffungswerts-Korrektur und der Schwarzfonds-Strafzuschlag (Österreich 2026)'
+seotitle: 'KZ 937: ausschüttungsgleiche Erträge melden'
 date: 2026-06-02
 lastmod: 2026-06-02
 description: 'Praktischer Leitfaden für KZ 937 in der E1kv: ausschüttungsgleiche Erträge aus thesaurierenden Fonds und ETFs. Mit Beispiel, OeKB-Profitlist-Lookup pro ISIN, der oft übersehenen Anschaffungswerts-Korrektur und der 90%-Pauschale für nicht-gemeldete Fonds.'

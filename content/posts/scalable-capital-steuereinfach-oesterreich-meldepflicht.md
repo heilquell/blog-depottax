@@ -1,5 +1,6 @@
 ---
 title: 'Scalable Capital ist jetzt steuereinfach — und der Wechsel dorthin ist meldepflichtig'
+seotitle: 'Scalable Capital steuereinfach (Österreich)'
 date: 2026-10-17
 lastmod: 2026-10-17
 description: 'Seit 8. Oktober 2026 führt Scalable Capital über eine Wiener Bankniederlassung die KESt automatisch ab. Für Neukunden ist das eine gute Nachricht. Bestandskunden werden erst später umgestellt — und dieser Wechsel ist ein Depotübertrag aus dem Ausland ins Inland, den seit 1. Juli 2026 Du selbst dem Finanzamt melden musst. Binnen eines Monats, nicht verlängerbar, keine Selbstanzeige möglich.'

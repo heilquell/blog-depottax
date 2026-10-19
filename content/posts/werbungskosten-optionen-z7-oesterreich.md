@@ -1,5 +1,6 @@
 ---
 title: 'Werbungskosten bei Optionen: Der teure Steuertopf ist der einzige, in dem Du Kosten abziehen darfst'
+seotitle: 'Werbungskosten bei Optionen (Österreich)'
 date: 2026-09-02
 lastmod: 2026-09-02
 description: 'Nicht-verbriefte Optionen kosten bis zu 55 % statt 27,5 % — dafür sind dort Datenfeed, Börsenbrief und Software abziehbar. Bei Aktien nicht. Warum das so ist, was Du ansetzen kannst, und wo die Zuordnung ehrlich unklar bleibt.'

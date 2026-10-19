@@ -1,5 +1,6 @@
 ---
 title: 'Gold- und Silber-ETC in der E1kv: KZ 995/896 statt KZ 994/892 (Österreich 2026)'
+seotitle: 'Gold- und Silber-ETC in der E1kv: KZ 995'
 date: 2026-08-21
 lastmod: 2026-08-21
 description: 'Xetra-Gold & Co. sind keine Aktien und keine Fonds, sondern besicherte Schuldverschreibungen. Warum sie steuerlich als verbriefte Derivate in KZ 995/896 gehören, warum Dein Broker das falsch meldet — und wann die Unterscheidung doch Geld kostet.'
