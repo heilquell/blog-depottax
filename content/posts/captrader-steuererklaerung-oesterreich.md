@@ -1,7 +1,7 @@
 ---
 title: 'CapTrader Steuererklärung Österreich'
 date: 2026-10-19
-lastmod: 2026-10-19
+lastmod: 2026-10-30
 description: 'CapTrader führt keine österreichische KESt ab und stellt keine Steuerbescheinigung aus. Welche Unterlagen es gibt und was Du selbst erklären musst.'
 keywords: ['CapTrader Steuererklärung', 'CapTrader Steuerbericht', 'CapTrader Steuer Österreich', 'CapTrader steuereinfach', 'CapTrader Quellensteuer', 'CapTrader Steuerbescheinigung', 'CapTrader E1kv']
 tags: ['CapTrader', 'Steuererklärung', 'E1kv', 'Quellensteuer', 'Österreich', 'IBKR']
@@ -117,7 +117,7 @@ Beim Wechsel zwischen Auslandsdepots ändert sich steuerlich wenig — beim Wech
 
 > 🛠 **[DepotTax](https://depottax.at)** liest die CapTrader-FlexQuery genauso wie die von IBKR direkt und erzeugt daraus die E1kv-Kennzahlen, eine PDF-Beilage als Beleg und eine Excel-Auswertung je Trade — mit gleitendem Durchschnittspreis, getrennten § 27-Töpfen und Quellensteuer-Anrechnung bis zum DBA-Satz. Mehrere Konten nebeneinander, etwa das alte CapTrader-Depot neben einem neuen IBKR-Konto, werden zusammengerechnet.
 
-Aktuell in geschlossener Beta. Wenn Du Interesse hast — melde Dich.
+DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — alle Tarife auf der [Preisseite](https://depottax.at/preise).
 
 ### Verwandte Guides
 

@@ -2,7 +2,7 @@
 title: 'KZ 937 / ausschüttungsgleiche Erträge richtig melden — OeKB, Anschaffungswerts-Korrektur und der Schwarzfonds-Strafzuschlag (Österreich 2026)'
 seotitle: 'KZ 937: ausschüttungsgleiche Erträge melden'
 date: 2026-06-02
-lastmod: 2026-06-02
+lastmod: 2026-10-30
 description: 'Praktischer Leitfaden für KZ 937 in der E1kv: ausschüttungsgleiche Erträge aus thesaurierenden Fonds und ETFs. Mit Beispiel, OeKB-Profitlist-Lookup pro ISIN, der oft übersehenen Anschaffungswerts-Korrektur und der 90%-Pauschale für nicht-gemeldete Fonds.'
 keywords: ['KZ 937', 'ausschüttungsgleiche Erträge', 'OeKB Profitlist', 'thesaurierender ETF Steuer', 'Schwarzfondsbesteuerung', 'Investmentfondsgesetz', 'Anschaffungswerts-Korrektur', 'E1kv KZ 937', 'IBKR Österreich Steuer', 'meldepflichtiger Fonds']
 tags: ['E1kv', 'Kennzahlen', 'OeKB', 'Thesaurierer', 'Investmentfonds', 'Österreich']
@@ -118,7 +118,7 @@ Unser Tool **[DepotTax](https://depottax.at)** macht das automatisch:
 - **Schwarzfonds-Warnung** wenn eine ISIN nicht in der OeKB-Profitlist auftaucht.
 - **Auch ohne IBKR-FlexQuery nutzbar** — manuelle ETF-Erfassung für **FFB-Sparpläne** und ähnliche thesaurierende Positionen ohne automatisierten Broker-Feed.
 
-Aktuell **Beta-Phase**, Zugang auf Anfrage. Funktioniert mit IBKR, CapTrader, LYNX, BANX, Brokerport — sowie FFB-Konten und sonstigen manuell zu erfassenden Depots.
+DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — alle Tarife auf der [Preisseite](https://depottax.at/preise). Funktioniert mit IBKR, CapTrader, LYNX, BANX, Brokerport — sowie FFB-Konten und sonstigen manuell zu erfassenden Depots.
 
 ### Weiterlesen
 

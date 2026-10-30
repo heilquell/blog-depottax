@@ -2,7 +2,7 @@
 title: 'Scalable Capital ist jetzt steuereinfach — und der Wechsel dorthin ist meldepflichtig'
 seotitle: 'Scalable Capital steuereinfach (Österreich)'
 date: 2026-10-17
-lastmod: 2026-10-17
+lastmod: 2026-10-30
 description: 'Seit 8. Oktober 2026 führt Scalable Capital über eine Wiener Bankniederlassung die KESt automatisch ab. Für Neukunden ist das eine gute Nachricht. Bestandskunden werden erst später umgestellt — und dieser Wechsel ist ein Depotübertrag aus dem Ausland ins Inland, den seit 1. Juli 2026 Du selbst dem Finanzamt melden musst. Binnen eines Monats, nicht verlängerbar, keine Selbstanzeige möglich.'
 keywords: ['Scalable Capital steuereinfach Österreich', 'Scalable Capital KESt Österreich', 'Scalable Bestandskunden Umstellung', 'Depotübertrag Ausland Inland melden', 'Meldepflicht Depotübertrag 1. Juli 2026', '§ 27 Abs 6 Z 2 EStG', 'FinanzOnline Depotübertragung', 'Fallcode 274Z', 'Trade Republic steuereinfach Österreich', 'pauschale Anschaffungskosten § 93 Abs 4']
 tags: ['Scalable Capital', 'Trade Republic', 'Depotübertrag', 'KESt', 'E1kv', 'Österreich', 'Steuererklärung']
@@ -160,7 +160,7 @@ Wer bisher nur eine Arbeitnehmerveranlagung gemacht hat, braucht dafür zuerst d
 
 <div class="dt-callout dt-callout-tool" id="tool">
 
-**Genau dafür gibt es [DepotTax](https://depottax.at).** Wir rechnen jeden Trade nach der österreichischen Pflichtmethode durch — gleitender Durchschnitt, ohne Anschaffungsnebenkosten, mit Korrektur um ausschüttungsgleiche Erträge — und zeigen Dir für jede offene Position den Einstandswert, den Du melden musst, mit Herleitung bis auf die einzelne Transaktion. Dazu die fertigen E1kv-Kennzahlen für den Zeitraum, der noch selbst zu erklären ist. Aktuell in geschlossener Beta.
+**Genau dafür gibt es [DepotTax](https://depottax.at).** Wir rechnen jeden Trade nach der österreichischen Pflichtmethode durch — gleitender Durchschnitt, ohne Anschaffungsnebenkosten, mit Korrektur um ausschüttungsgleiche Erträge — und zeigen Dir für jede offene Position den Einstandswert, den Du melden musst, mit Herleitung bis auf die einzelne Transaktion. Dazu die fertigen E1kv-Kennzahlen für den Zeitraum, der noch selbst zu erklären ist. Ab 99 € je Steuerjahr — [alle Tarife](https://depottax.at/preise).
 
 </div>
 

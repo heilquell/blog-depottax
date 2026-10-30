@@ -2,7 +2,7 @@
 title: 'Werbungskosten bei Optionen: Der teure Steuertopf ist der einzige, in dem Du Kosten abziehen darfst'
 seotitle: 'Werbungskosten bei Optionen (Österreich)'
 date: 2026-09-02
-lastmod: 2026-09-02
+lastmod: 2026-10-30
 description: 'Nicht-verbriefte Optionen kosten bis zu 55 % statt 27,5 % — dafür sind dort Datenfeed, Börsenbrief und Software abziehbar. Bei Aktien nicht. Warum das so ist, was Du ansetzen kannst, und wo die Zuordnung ehrlich unklar bleibt.'
 keywords: ['Werbungskosten Optionen Österreich', 'Werbungskosten Kapitalvermögen', 'KZ 857 Werbungskosten', '§ 20 Abs 2 EStG', '§ 16 EStG Werbungskosten', 'nicht verbriefte Derivate Tarif', 'Margin-Zinsen absetzen', 'E1kv Werbungskosten', 'Abzugsverbot Sondersteuersatz']
 tags: ['E1kv', 'Werbungskosten', 'Optionen', 'Tarifbesteuerung', 'IBKR', 'Österreich']
@@ -174,7 +174,7 @@ Die Ersparnis wird tarif-integriert gerechnet, also als Differenz der Steuer vor
 
 Dass jeder Posten einzeln steht, ist Absicht: Dein Steuerberater soll jede Position gezielt prüfen und einzelne streichen können, bevor die Nettozahl in KZ 857 wandert.
 
-> 🛠 **[DepotTax](https://depottax.at)** liest die IBKR-/CapTrader-FlexQuery aus und liefert die fertige E1kv-Kennzahlenübersicht als PDF — mit Herleitung bis auf die einzelne Transaktion. Aktuell in geschlossener Beta.
+> 🛠 **[DepotTax](https://depottax.at)** liest die IBKR-/CapTrader-FlexQuery aus und liefert die fertige E1kv-Kennzahlenübersicht als PDF — mit Herleitung bis auf die einzelne Transaktion. Ab 99 € je Steuerjahr — [alle Tarife](https://depottax.at/preise).
 
 ### Verwandte Guides
 

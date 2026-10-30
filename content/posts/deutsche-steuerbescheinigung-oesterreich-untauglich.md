@@ -2,7 +2,7 @@
 title: 'Die Steuerbescheinigung Deines deutschen Brokers ist für Österreich fast wertlos'
 seotitle: 'Deutsche Steuerbescheinigung in Österreich'
 date: 2026-10-17
-lastmod: 2026-10-17
+lastmod: 2026-10-30
 description: 'Scalable Capital, Trade Republic, Trading 212: Wer als Österreicher bei einem deutschen Broker liegt, bekommt im Frühjahr eine deutsche Steuerbescheinigung — und hält damit ein Dokument in der Hand, dessen wichtigste Zahlen es im österreichischen Steuerrecht gar nicht gibt. Was Du davon verwenden kannst, was nicht, und warum die verbreitete Abkürzung „alles zusammenzählen und 27,5 % davon" zu falschen Zahlen führt.'
 keywords: ['Steuerbescheinigung Österreich', 'Scalable Capital Steuererklärung Österreich', 'Trade Republic Steuer Österreich', 'deutscher Broker österreichische Steuer', 'E1kv deutscher Broker', 'Vorabpauschale Österreich', 'Teilfreistellung Österreich', 'Steuerreport Österreich Broker', 'deutsche Kapitalertragsteuer anrechnen Österreich', 'BZSt Erstattung Quellensteuer', 'Zuflussprinzip § 19 EStG']
 tags: ['E1kv', 'Auslandsbroker', 'Scalable Capital', 'Trade Republic', 'Österreich', 'Steuererklärung']
@@ -97,7 +97,7 @@ Die Bescheinigung aus Deutschland ist kein österreichischer Steuerreport und wi
 
 <div class="dt-callout dt-callout-tool" id="tool">
 
-**Genau dafür gibt es [DepotTax](https://depottax.at).** Wir rechnen aus Deinen Bewegungsdaten, nicht aus der Bescheinigung: gleitender Durchschnittspreis statt FIFO, jeder Topf getrennt, ausländische Quellensteuer in der richtigen Kennzahl — und jede Zahl bis zur einzelnen Transaktion herleitbar, damit Du oder Deine Steuerberatung sie prüfen kann. Aktuell in geschlossener Beta.
+**Genau dafür gibt es [DepotTax](https://depottax.at).** Wir rechnen aus Deinen Bewegungsdaten, nicht aus der Bescheinigung: gleitender Durchschnittspreis statt FIFO, jeder Topf getrennt, ausländische Quellensteuer in der richtigen Kennzahl — und jede Zahl bis zur einzelnen Transaktion herleitbar, damit Du oder Deine Steuerberatung sie prüfen kann. Ab 99 € je Steuerjahr — [alle Tarife](https://depottax.at/preise).
 
 </div>
 

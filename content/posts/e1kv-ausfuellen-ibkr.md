@@ -2,7 +2,7 @@
 title: 'E1kv ausfüllen für IBKR-User (Österreich 2026) — vollständige Anleitung'
 seotitle: 'E1kv ausfüllen für IBKR (Österreich 2026)'
 date: 2026-05-31
-lastmod: 2026-10-19
+lastmod: 2026-10-30
 description: 'Schritt-für-Schritt-Anleitung zum Ausfüllen der Beilage E1kv „ohne KESt-Abzug" für österreichische Privatpersonen mit Interactive-Brokers-Konto. Inkl. KZ 863, 994, 892, 995, 896, 861, 998.'
 keywords: ['E1kv', 'E1kv ausfüllen', 'IBKR Steuer Österreich', 'Interactive Brokers KESt', 'Beilage Kapitalvermögen', 'ohne KESt-Abzug', 'KZ 863', 'KZ 994', 'FinanzOnline E1kv']
 tags: ['E1kv', 'IBKR', 'Steuererklärung', 'Österreich']
@@ -172,7 +172,7 @@ Wenn Du das **jedes Jahr** ausfüllen musst, lohnt sich ein automatisiertes Tool
 > - Excel-Detail-Auswertung pro Trade
 > - Inkl. Avg-Cost-Engine, AT-korrekter §27-Topf-Logik, DBA-Quellensteuer-Cap
 
-Aktuell in geschlossener Beta für Friends-and-Family. Wenn Du Interesse hast — melde Dich.
+DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — alle Tarife auf der [Preisseite](https://depottax.at/preise).
 
 ---
 

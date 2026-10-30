@@ -2,7 +2,7 @@
 title: 'FFB-Konto neben IBKR — Steuererklärung in Österreich richtig erfassen (2026)'
 seotitle: 'FFB-Konto neben IBKR: Steuererklärung AT'
 date: 2026-06-02
-lastmod: 2026-06-02
+lastmod: 2026-10-30
 description: 'Praktischer Leitfaden für FFB-Konten (FIL Fondsbank) in der österreichischen E1kv: Warum keine KESt automatisch abgezogen wird, was die deutsche Jahresbescheinigung NICHT abdeckt, FIFO vs. gleitender Durchschnitt bei Sparplänen, KZ 937 bei thesaurierenden Fonds.'
 keywords: ['FFB Steuererklärung Österreich', 'FIL Fondsbank E1kv', 'FFB Sparplan KESt Österreich', 'FFB Fonds Avg-Cost', 'FFB IBKR Steuer', 'FFB Jahresbescheinigung Österreich', 'thesaurierender Fonds FFB', 'FFB FinanzOnline']
 tags: ['FFB', 'E1kv', 'Investmentfonds', 'Sparplan', 'Österreich']
@@ -133,7 +133,7 @@ Unser Tool **[DepotTax](https://depottax.at)** löst genau diese Mischsituation:
 - **IBKR und FFB in einer Excel-Mappe** — eine fertige Steuerberater-Mappe für beide Brokers, keine zwei separaten Excel-Stapel mehr.
 - **Schwarzfonds-Warnung** wenn eine ISIN nicht in der OeKB-Profitlist landet.
 
-Aktuell **Beta-Phase**, Zugang auf Anfrage.
+DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — alle Tarife auf der [Preisseite](https://depottax.at/preise).
 
 ### Weiterlesen
 
