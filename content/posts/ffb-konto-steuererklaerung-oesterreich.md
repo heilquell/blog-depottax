@@ -141,6 +141,6 @@ DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — al
 
 ---
 
-**Du hast Korrekturen, Erfahrungen mit FFB-Sparplänen in Österreich oder einen Edge-Case der nicht abgedeckt ist?** Schreib uns: [milosiland@gmail.com](mailto:milosiland@gmail.com)
+**Du hast Korrekturen, Erfahrungen mit FFB-Sparplänen in Österreich oder einen Edge-Case der nicht abgedeckt ist?** Schreib uns: [office@depottax.at](mailto:office@depottax.at)
 
 *Keine steuerliche Beratung — dieser Beitrag dient zur Selbst-Information. Bei komplexen Konstellationen Steuerberater hinzuziehen.*
