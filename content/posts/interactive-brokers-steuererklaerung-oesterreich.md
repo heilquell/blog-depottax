@@ -1,7 +1,7 @@
 ---
 title: 'Interactive Brokers Steuererklärung Österreich'
 date: 2026-10-19
-lastmod: 2026-10-19
+lastmod: 2026-10-30
 description: 'Was Du mit Interactive-Brokers-Depot in Österreich selbst erklären musst: Erträge, Kennzahlen, Fristen und der Weg von der FlexQuery in die E1kv.'
 keywords: ['Interactive Brokers Steuererklärung Österreich', 'Interactive Brokers Österreich Steuer', 'IBKR Steuererklärung', 'Interactive Brokers Kapitalertragsteuer', 'IBKR E1kv', 'Interactive Brokers Steuererklärung Anleitung']
 tags: ['Interactive Brokers', 'IBKR', 'Steuererklärung', 'E1kv', 'Österreich', 'Überblick']
@@ -108,7 +108,7 @@ Wer von einer Steuerberatung vertreten wird, fällt unter deren Quotenregelung u
 
 > 🛠 **[DepotTax](https://depottax.at)** liest Deine IBKR- oder CapTrader-FlexQuery und erzeugt die E1kv-Kennzahlen, eine PDF-Beilage als Beleg und eine Excel-Auswertung je Trade — mit gleitendem Durchschnittspreis, getrennten § 27-Töpfen und DBA-Cap je Quellenland.
 
-Aktuell in geschlossener Beta. Wenn Du Interesse hast — melde Dich.
+DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — alle Tarife auf der [Preisseite](https://depottax.at/preise).
 
 ### Quellen
 

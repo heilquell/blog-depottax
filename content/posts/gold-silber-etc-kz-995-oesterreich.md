@@ -2,7 +2,7 @@
 title: 'Gold- und Silber-ETC in der E1kv: KZ 995/896 statt KZ 994/892 (Österreich 2026)'
 seotitle: 'Gold- und Silber-ETC in der E1kv: KZ 995'
 date: 2026-08-21
-lastmod: 2026-08-21
+lastmod: 2026-10-30
 description: 'Xetra-Gold & Co. sind keine Aktien und keine Fonds, sondern besicherte Schuldverschreibungen. Warum sie steuerlich als verbriefte Derivate in KZ 995/896 gehören, warum Dein Broker das falsch meldet — und wann die Unterscheidung doch Geld kostet.'
 keywords: ['Gold ETC Steuer Österreich', 'Xetra-Gold Steuer Österreich', 'Silber ETC Steuer', 'KZ 995', 'KZ 896', 'KZ 994', 'verbrieftes Derivat', '§ 27 Abs 4 Z 3 EStG', 'E1kv Edelmetall', 'physische Auslieferung Gold']
 tags: ['E1kv', 'Kennzahlen', 'Edelmetalle', 'ETC', 'IBKR', 'Österreich']
@@ -120,7 +120,7 @@ Deine Antwort gilt dabei **nur für Dein Depot**, und sie schlägt unsere kurati
 
 Und weil es immer wieder Rückfragen dazu gibt: Die Jahressummen ändern sich durch so eine Umstellung **nicht**. Nur die Zeile stimmt.
 
-> 🛠 **[DepotTax](https://depottax.at)** liest die IBKR-/CapTrader-FlexQuery aus und liefert die fertige E1kv-Kennzahlenübersicht als PDF — mit Herleitung bis auf die einzelne Transaktion. Aktuell in geschlossener Beta.
+> 🛠 **[DepotTax](https://depottax.at)** liest die IBKR-/CapTrader-FlexQuery aus und liefert die fertige E1kv-Kennzahlenübersicht als PDF — mit Herleitung bis auf die einzelne Transaktion. Ab 99 € je Steuerjahr — [alle Tarife](https://depottax.at/preise).
 
 ### Verwandte Guides
 

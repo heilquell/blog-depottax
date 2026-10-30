@@ -1,7 +1,7 @@
 ---
 title: 'LYNX Steuererklärung Österreich'
 date: 2026-10-19
-lastmod: 2026-10-19
+lastmod: 2026-10-30
 description: 'LYNX stellt keine Steuerbescheinigung aus, und den informativen Steuerbericht gibt es nur mit Wohnsitz in Deutschland. Was Österreicher stattdessen brauchen.'
 keywords: ['LYNX Steuererklärung', 'LYNX Steuerbescheinigung', 'LYNX Steuerbericht', 'LYNX Broker Abgeltungssteuer', 'LYNX Steuer Österreich', 'LYNX E1kv']
 tags: ['LYNX', 'Steuererklärung', 'E1kv', 'Quellensteuer', 'Österreich', 'IBKR']
@@ -123,7 +123,7 @@ Ja. Alle vier sind Introducing Broker auf derselben IBKR-Infrastruktur, alle vie
 
 > 🛠 **[DepotTax](https://depottax.at)** liest die LYNX-FlexQuery genauso wie die von IBKR direkt oder CapTrader und erzeugt daraus die E1kv-Kennzahlen, eine PDF-Beilage als Beleg und eine Excel-Auswertung je Trade — mit gleitendem Durchschnittspreis, getrennten § 27-Töpfen und Quellensteuer-Anrechnung bis zum DBA-Satz.
 
-Aktuell in geschlossener Beta. Wenn Du Interesse hast — melde Dich.
+DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — alle Tarife auf der [Preisseite](https://depottax.at/preise).
 
 ### Quellen
 

@@ -2,7 +2,7 @@
 title: 'IBKR FlexQuery für die AT-Steuererklärung einrichten — Schritt für Schritt'
 seotitle: 'IBKR FlexQuery einrichten (Österreich)'
 date: 2026-05-31
-lastmod: 2026-09-15
+lastmod: 2026-10-30
 description: 'Wie Du in Interactive Brokers eine Activity Flex Query erstellst, die alle für die österreichische E1kv nötigen Daten enthält — Trades, Dividenden, Quellensteuer, Cash Transactions. Mit der Section-Checkliste, den leicht übersehenen Detailoptionen und den exakten Formatwerten.'
 keywords: ['IBKR FlexQuery', 'IBKR FlexQuery erstellen', 'Activity Flex Query', 'IBKR Steuer Österreich', 'Interactive Brokers Steuererklärung', 'IBKR XML Export', 'FlexQuery Executions', 'Flex Web Service Token']
 tags: ['FlexQuery', 'IBKR', 'Steuererklärung', 'Österreich']
@@ -194,7 +194,7 @@ Wenn Du die XML nicht selbst auswerten willst:
 
 > 🛠 **[DepotTax](https://depottax.at)** liest Deine Activity Flex Query ein und erzeugt die E1kv-Kennzahlen — mit AT-konformem gleitendem Durchschnittspreis, getrennten Steuertöpfen und Herleitung bis auf die einzelne Transaktion. Du kannst die XML hochladen oder über den **Flex Web Service Token** automatisch abrufen lassen. Die App prüft außerdem, ob Deine Bestände zu den importierten Trades passen, und warnt, wenn etwas fehlt.
 
-Aktuell in geschlossener Beta. Melde Dich, falls Du dabei sein willst.
+DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — alle Tarife auf der [Preisseite](https://depottax.at/preise).
 
 ### Verwandte Guides
 
