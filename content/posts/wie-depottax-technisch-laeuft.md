@@ -69,7 +69,7 @@ Nach außen gehen Deine Auswertungen nur auf zwei Wegen, und beide sind ab Werk 
 
 ## 7. Sicherungen
 
-Die Datenbank wird täglich gesichert, die Sicherungen bleiben 14 Tage liegen. Zusätzlich sichert der Hoster den ganzen Server als Abbild. Ein verlorener Datenstand bei den Trades wäre ohnehin nachholbar — die FlexQuery liefert die Buchungen jederzeit neu.
+Die Datenbank wird täglich gesichert, die Sicherungen bleiben 14 Tage liegen. Zusätzlich sichert der Hoster den ganzen Server täglich als Abbild. Ein verlorener Datenstand bei den Trades wäre ohnehin nachholbar — die FlexQuery liefert die Buchungen jederzeit neu.
 
 Löschen kannst Du alles mit einer formlosen Nachricht an office@depottax.at. Ausgenommen sind nur Rechnungen, die wir sieben Jahre aufbewahren müssen.
 
