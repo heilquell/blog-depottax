@@ -1,14 +1,14 @@
 ---
-title: 'E1kv ausfüllen für IBKR-User (Österreich 2026) — vollständige Anleitung'
-seotitle: 'E1kv ausfüllen für IBKR (Österreich 2026)'
+title: 'E1kv 2025 ausfüllen für IBKR-User (Steuerjahr 2025) — vollständige Anleitung'
+seotitle: 'E1kv 2025 ausfüllen für IBKR (Steuerjahr 2025)'
 date: 2026-05-31
-lastmod: 2026-10-30
-description: 'Schritt-für-Schritt-Anleitung zum Ausfüllen der Beilage E1kv „ohne KESt-Abzug" für österreichische Privatpersonen mit Interactive-Brokers-Konto. Inkl. KZ 863, 994, 892, 995, 896, 861, 998.'
-keywords: ['E1kv', 'E1kv ausfüllen', 'IBKR Steuer Österreich', 'Interactive Brokers KESt', 'Beilage Kapitalvermögen', 'ohne KESt-Abzug', 'KZ 863', 'KZ 994', 'FinanzOnline E1kv']
+lastmod: 2026-11-18
+description: 'E1kv 2025: Schritt-für-Schritt-Anleitung zum Ausfüllen der Beilage E1kv „ohne KESt-Abzug" für österreichische Privatpersonen mit Interactive-Brokers-Konto. Inkl. KZ 863, 994, 892, 995, 896, 861, 998.'
+keywords: ['E1kv', 'E1kv 2025', 'E1kv ausfüllen', 'IBKR Steuer Österreich', 'Interactive Brokers KESt', 'Beilage Kapitalvermögen', 'ohne KESt-Abzug', 'KZ 863', 'KZ 994', 'FinanzOnline E1kv']
 tags: ['E1kv', 'IBKR', 'Steuererklärung', 'Österreich']
 ---
 
-# E1kv ausfüllen für IBKR-User (Österreich 2026) — vollständige Anleitung
+# E1kv 2025 ausfüllen für IBKR-User (Steuerjahr 2025) — vollständige Anleitung
 
 > **Stand:** 2026-05-31 · **Lesezeit:** ~15 Minuten · **Gilt für:** Steuerjahr 2025 (Erklärung 2026)
 
