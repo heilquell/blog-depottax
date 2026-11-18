@@ -198,7 +198,7 @@ DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — al
 
 ### Verwandte Guides
 
-- [E1kv ausfüllen für IBKR-User (Österreich 2026)](/posts/e1kv-ausfuellen-ibkr/) — der nächste Schritt nach dem FlexQuery-Setup
+- [E1kv 2025 ausfüllen für IBKR-User (Steuerjahr 2025)](/posts/e1kv-ausfuellen-ibkr/) — der nächste Schritt nach dem FlexQuery-Setup
 - [KZ 863 vs KZ 994 — wo trage ich was ein?](/posts/kz-863-vs-kz-994/) — Zuordnungstabelle pro Buchungstyp
 - [Depotübertrag bei IBKR — muss ich das erklären?](/posts/depotuebertrag-ibkr-oesterreich/)
 
