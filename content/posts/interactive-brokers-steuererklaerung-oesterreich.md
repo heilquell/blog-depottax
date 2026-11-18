@@ -1,15 +1,16 @@
 ---
-title: 'Interactive Brokers Steuererklärung Österreich'
+title: 'Interactive Brokers in Österreich: Steuererklärung, E1kv und Tax Reports'
+seotitle: 'Interactive Brokers Österreich: Steuererklärung und E1kv'
 date: 2026-10-19
-lastmod: 2026-10-30
-description: 'Was Du mit Interactive-Brokers-Depot in Österreich selbst erklären musst: Erträge, Kennzahlen, Fristen und der Weg von der FlexQuery in die E1kv.'
-keywords: ['Interactive Brokers Steuererklärung Österreich', 'Interactive Brokers Österreich Steuer', 'IBKR Steuererklärung', 'Interactive Brokers Kapitalertragsteuer', 'IBKR E1kv', 'Interactive Brokers Steuererklärung Anleitung']
+lastmod: 2026-11-18
+description: 'Interactive Brokers in Österreich: Was Du selbst erklären musst, warum die Tax Reports von IBKR nicht reichen, welche Kennzahlen der E1kv betroffen sind und wie Du von der FlexQuery zur Steuererklärung kommst.'
+keywords: ['Interactive Brokers Österreich', 'Interactive Brokers Steuererklärung Österreich', 'IBKR Tax Reporting Österreich', 'Interactive Brokers Tax Report', 'Interactive Brokers Österreich Steuer', 'IBKR Steuererklärung', 'Interactive Brokers Kapitalertragsteuer', 'IBKR E1kv', 'Interactive Brokers Steuererklärung Anleitung']
 tags: ['Interactive Brokers', 'IBKR', 'Steuererklärung', 'E1kv', 'Österreich', 'Überblick']
 ---
 
-# Interactive Brokers Steuererklärung Österreich
+# Interactive Brokers in Österreich: Steuererklärung, E1kv und Tax Reports
 
-> **Stand:** 2026-10-19 · **Lesezeit:** ~9 Minuten · **Gilt für:** in Österreich unbeschränkt steuerpflichtige Privatpersonen mit einem Depot bei Interactive Brokers oder einem IBKR-Reseller
+> **Stand:** 2026-11-18 · **Lesezeit:** ~10 Minuten · **Gilt für:** in Österreich unbeschränkt steuerpflichtige Privatpersonen mit einem Depot bei Interactive Brokers oder einem IBKR-Reseller
 
 Wer als Österreicher bei **Interactive Brokers** handelt, bekommt am Jahresende keine Steuerbescheinigung, mit der das Finanzamt etwas anfangen kann, und es wurde auch keine Kapitalertragsteuer abgezogen. Die **Steuererklärung** für das IBKR-Depot machst Du selbst — vollständig, von Hand, in einem Formular, das Du in der Arbeitnehmerveranlagung nicht einmal zu sehen bekommst.
 
@@ -33,6 +34,18 @@ Das gilt genauso für die Reseller, die auf der IBKR-Infrastruktur aufsitzen: **
 → [IBKR direkt oder Reseller? Ein Trade-Kosten-Vergleich](/posts/broker-wechsel-trade-kosten/)
 → [CapTrader Steuererklärung Österreich](/posts/captrader-steuererklaerung-oesterreich/)
 → [LYNX Steuererklärung Österreich](/posts/lynx-steuererklaerung-oesterreich/)
+
+## Und die Tax Reports von Interactive Brokers?
+
+Interactive Brokers stellt seine Steuerunterlagen im Client Portal unter **Performance & Reports → Tax Documents** bereit. Dort liegen die US-Formulare wie das 1099 und, je nach gewählter Jurisdiktion, sogenannte **Informational Tax Reports** für einzelne Länder, etwa für Deutschland ab dem Steuerjahr 2019. Den deutschen Bericht veröffentlicht IBKR laut eigener Angabe meist ab Ende des Sommers des Folgejahres, also erst nach der Frist für die elektronische Erklärung Ende Juni.
+
+Für die österreichische Steuererklärung hilft das wenig:
+
+- Ein Bericht, der die **Kennzahlen der Beilage E1kv** ausweist, ist uns dort nicht bekannt. Welche Jurisdiktionen Dein Konto anbietet, siehst Du über das Zahnrad neben „Jurisdictions".
+- Der **deutsche Bericht** rechnet nach deutschen Regeln. Kostenbasis, Spesen und Verlustverrechnung weichen von den österreichischen ab, die Zahlen lassen sich nicht einfach übernehmen. → [Warum deutsche Steuerbescheinigungen in Österreich kaum taugen](/posts/deutsche-steuerbescheinigung-oesterreich-untauglich/)
+- Die realisierten Gewinne im **Activity Statement** folgen der Lot-Zuordnung des Kontos, standardmäßig FIFO. Österreich verlangt den gleitenden Durchschnittspreis (siehe Fehler 2 weiter unten).
+
+Brauchbar sind die Tax Documents trotzdem als Gegenprobe, etwa für die einbehaltene Quellensteuer je Land. Die Grundlage für die E1kv bleibt die FlexQuery.
 
 ## Was Du melden musst
 
@@ -116,5 +129,7 @@ DepotTax gibt es ab 99 € je Steuerjahr, zurückliegende Jahre ab 29 € — al
 - [§ 41 EStG (RIS)](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004570&Paragraf=41) — Pflichtveranlagung, 730-Euro-Grenze
 - [§ 27a EStG (RIS)](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004570&Paragraf=27a) — Sondersatz, gleitender Durchschnittspreis, Anschaffungsnebenkosten
 - [Formulare des Bundesministeriums für Finanzen](https://service.bmf.gv.at/service/anwend/formulare)
+- [Interactive Brokers: German tax report FAQ](https://www.interactivebrokers.com/support/faq/content/german-tax-report-faq-1152810164) — Tax Documents, Jurisdictions, Veröffentlichungszeitpunkt
+- [Interactive Brokers: Tax Management Tools and Reporting](https://www.interactivebrokers.com/en/support/tax-management-and-reporting.php)
 
 *Dieser Artikel ist keine Steuerberatung, sondern eine Aufbereitung öffentlich zugänglicher Quellen. Für Deinen konkreten Fall — besonders bei Optionen, Fonds ohne OeKB-Meldung und Depotüberträgen — klär die Zuordnung mit Deiner Steuerberatung ab.*

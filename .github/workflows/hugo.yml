@@ -62,3 +62,28 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+  # Meldet nach jedem Deploy alle URLs aus der Sitemap an IndexNow
+  # (Bing, Yandex, Seznam, Naver; Bing speist auch DuckDuckGo, Ecosia und
+  # die Websuche von ChatGPT/Copilot). Der Schluessel ist kein Geheimnis:
+  # er liegt absichtlich oeffentlich unter /<key>.txt (static/).
+  # Ein Fehler hier bricht den Deploy nicht ab.
+  indexnow:
+    runs-on: ubuntu-latest
+    needs: deploy
+    continue-on-error: true
+    env:
+      INDEXNOW_KEY: 973810246429440551d47866ec2ee278
+      SITE: https://blog.depottax.at
+    steps:
+      - name: Submit sitemap URLs to IndexNow
+        run: |
+          sleep 30
+          urls=$(curl -fsS "$SITE/sitemap.xml" | grep -o '<loc>[^<]*</loc>' | sed 's/<[^>]*>//g')
+          test -n "$urls"
+          json=$(printf '%s\n' $urls | jq -R . | jq -s --arg k "$INDEXNOW_KEY" --arg s "$SITE" \
+            '{host: "blog.depottax.at", key: $k, keyLocation: ($s + "/" + $k + ".txt"), urlList: .}')
+          echo "$(printf '%s\n' $urls | wc -l) URLs"
+          curl -sS -o /dev/null -w "IndexNow HTTP %{http_code}\n" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$json" https://api.indexnow.org/indexnow
